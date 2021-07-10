@@ -1,0 +1,72 @@
+.sprite-fm-theme,.sprite-fm-theme-after:after,.sprite-fm-theme-before:before{
+	background:url(../imagery/sprites-fm-theme-light.425edd3da3a544c9.svg) no-repeat;
+	background-size:500%;
+	content:"";
+	display:block;
+	height:var(--icon-size, 16px);
+	width:var(--icon-size, 16px)
+}
+.sprite-fm-theme-after.icon-emoji-after:after,.sprite-fm-theme-before.icon-emoji-before:before,.sprite-fm-theme.icon-emoji{
+	background-position:0 0
+}
+.sprite-fm-theme-after.icon-emoji-active-after:after,.sprite-fm-theme-before.icon-emoji-active-before:before,.sprite-fm-theme.icon-emoji-active{
+	background-position:25% 0
+}
+.sprite-fm-theme-after.icon-emoji-reactions-after:after,.sprite-fm-theme-before.icon-emoji-reactions-before:before,.sprite-fm-theme.icon-emoji-reactions{
+	background-position:0 25%
+}
+.sprite-fm-theme-after.icon-emoji-reactions-active-after:after,.sprite-fm-theme-before.icon-emoji-reactions-active-before:before,.sprite-fm-theme.icon-emoji-reactions-active{
+	background-position:25% 25%
+}
+.sprite-fm-theme-after.icon-gif-rest-after:after,.sprite-fm-theme-before.icon-gif-rest-before:before,.sprite-fm-theme.icon-gif-rest{
+	background-position:50% 0
+}
+.sprite-fm-theme-after.icon-handset-after:after,.sprite-fm-theme-before.icon-handset-before:before,.sprite-fm-theme.icon-handset{
+	background-position:50% 25%
+}
+.sprite-fm-theme-after.icon-handset-cancelled-after:after,.sprite-fm-theme-before.icon-handset-cancelled-before:before,.sprite-fm-theme.icon-handset-cancelled{
+	background-position:0 50%
+}
+.sprite-fm-theme-after.icon-handset-ended-after:after,.sprite-fm-theme-before.icon-handset-ended-before:before,.sprite-fm-theme.icon-handset-ended{
+	background-position:25% 50%
+}
+.sprite-fm-theme-after.icon-handset-failed-after:after,.sprite-fm-theme-before.icon-handset-failed-before:before,.sprite-fm-theme.icon-handset-failed{
+	background-position:50% 50%
+}
+.sprite-fm-theme-after.icon-handset-incoming-after:after,.sprite-fm-theme-before.icon-handset-incoming-before:before,.sprite-fm-theme.icon-handset-incoming{
+	background-position:75% 0
+}
+.sprite-fm-theme-after.icon-handset-missed-after:after,.sprite-fm-theme-before.icon-handset-missed-before:before,.sprite-fm-theme.icon-handset-missed{
+	background-position:75% 25%
+}
+.sprite-fm-theme-after.icon-handset-outgoing-after:after,.sprite-fm-theme-before.icon-handset-outgoing-before:before,.sprite-fm-theme.icon-handset-outgoing{
+	background-position:75% 50%
+}
+.sprite-fm-theme-after.icon-handset-rejected-after:after,.sprite-fm-theme-before.icon-handset-rejected-before:before,.sprite-fm-theme.icon-handset-rejected{
+	background-position:0 75%
+}
+.sprite-fm-theme-after.icon-image-zoom-in-after:after,.sprite-fm-theme-before.icon-image-zoom-in-before:before,.sprite-fm-theme.icon-image-zoom-in{
+	background-position:25% 75%
+}
+.sprite-fm-theme-after.icon-image-zoom-out-after:after,.sprite-fm-theme-before.icon-image-zoom-out-before:before,.sprite-fm-theme.icon-image-zoom-out{
+	background-position:50% 75%
+}
+.sprite-fm-theme-after.icon-loading-spinner-after:after,.sprite-fm-theme-before.icon-loading-spinner-before:before,.sprite-fm-theme.icon-loading-spinner{
+	background-position:75% 75%
+}
+.sprite-fm-theme-after.icon-notifications-after:after,.sprite-fm-theme-before.icon-notifications-before:before,.sprite-fm-theme.icon-notifications{
+	background-position:100% 0
+}
+.sprite-fm-theme-after.icon-notifications-muted-after:after,.sprite-fm-theme-before.icon-notifications-muted-before:before,.sprite-fm-theme.icon-notifications-muted{
+	background-position:100% 25%
+}
+.sprite-fm-theme-after.icon-question-grey-after:after,.sprite-fm-theme-before.icon-question-grey-before:before,.sprite-fm-theme.icon-question-grey{
+	background-position:100% 50%
+}
+.sprite-fm-theme-after.icon-settings-after:after,.sprite-fm-theme-before.icon-settings-before:before,.sprite-fm-theme.icon-settings{
+	background-position:100% 75%
+}
+.sprite-fm-theme-after.icon-stripe-after:after,.sprite-fm-theme-before.icon-stripe-before:before,.sprite-fm-theme.icon-stripe{
+	background-position:0 100%
+}
+

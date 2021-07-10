@@ -1,0 +1,6 @@
+2021/07/05-12:51:07.523 3 Reusing MANIFEST /home/piyush/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2021/07/05-12:51:07.526 3 Recovering log #7
+2021/07/05-12:51:07.633 3 Reusing old log /home/piyush/.config/google-chrome/Profile 1/Local Storage/leveldb/000007.log 
+2021/07/05-12:51:58.028 5 Level-0 table #11: started
+2021/07/05-12:51:58.611 5 Level-0 table #11: 13705 bytes OK
+2021/07/05-12:51:59.530 5 Delete type=0 #7

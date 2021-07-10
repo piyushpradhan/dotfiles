@@ -1,0 +1,223 @@
+{
+   "checksum": "f6bd730bdee619348804c5e9b9c3689c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13234609858119053",
+            "guid": "c06e59eb-7cef-4092-a067-4af823f6619a",
+            "id": "8",
+            "name": "Android Custom Dialog Example",
+            "type": "url",
+            "url": "https://examples.javacodegeeks.com/android/core/ui/dialog/android-custom-dialog-example/"
+         }, {
+            "date_added": "13234707293655214",
+            "guid": "ae621c0d-87ca-4b6a-a97d-4d4a55503bb9",
+            "id": "9",
+            "name": "Advanced Android in Kotlin 06.1: Android Login with FirebaseUI",
+            "type": "url",
+            "url": "https://codelabs.developers.google.com/codelabs/advanced-android-kotlin-training-login/#3"
+         }, {
+            "date_added": "13234840373505477",
+            "guid": "5a35d58d-9501-4e40-bf3c-4fa1b8332a01",
+            "id": "10",
+            "name": "android animations",
+            "type": "url",
+            "url": "https://blog.kotlin-academy.com/android-animation-using-kotlin-ef385b5b5dea"
+         }, {
+            "date_added": "13235095629873534",
+            "guid": "e174dc44-cc58-4706-927b-379ef261d7f2",
+            "id": "11",
+            "name": "Android RecyclerView Tutorial with Kotlin | raywenderlich.com",
+            "type": "url",
+            "url": "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin#toc-anchor-008"
+         }, {
+            "date_added": "13235407886066802",
+            "guid": "ee023377-0495-4176-903c-23288788e4e0",
+            "id": "12",
+            "name": "Kotlin Firebase Realtime Database - Get List of Data example | Android » grokonez",
+            "type": "url",
+            "url": "https://grokonez.com/android/kotlin-firebase-realtime-database-get-list-data-example-android"
+         }, {
+            "date_added": "13236766295950482",
+            "guid": "acec75bb-5fd0-4130-8b99-dee4e2a5b227",
+            "id": "13",
+            "name": "Persist data with SQLite - Flutter",
+            "type": "url",
+            "url": "https://flutter.dev/docs/cookbook/persistence/sqlite"
+         }, {
+            "date_added": "13237043704379134",
+            "guid": "e6930941-567c-4cbb-909a-a8ea796432c7",
+            "id": "14",
+            "name": "Animated line chart for flutter",
+            "type": "url",
+            "url": "https://flutterawesome.com/animated-line-chart-for-flutter/"
+         }, {
+            "date_added": "13237935135548967",
+            "guid": "88cb5668-2562-499a-a3c3-dd162b1f1e67",
+            "id": "15",
+            "name": "Framing: Key ML Terminology  |  Machine Learning Crash Course",
+            "type": "url",
+            "url": "https://developers.google.com/machine-learning/crash-course/framing/ml-terminology"
+         }, {
+            "date_added": "13238528362022672",
+            "guid": "05076933-8ceb-472b-a515-8415ef798e74",
+            "id": "16",
+            "name": "Flutter Tutorial: How to Build a Messaging App | Toptal",
+            "type": "url",
+            "url": "https://www.toptal.com/flutter/flutter-tutorial#:~:text=First%20of%20all%2C%20make%20sure,plist%20for%20iOS."
+         }, {
+            "date_added": "13225922999252191",
+            "guid": "ab140bc5-f32d-473c-965b-53e40db0e971",
+            "id": "17",
+            "name": "Sphere Online Judge (SPOJ) - Problems",
+            "type": "url",
+            "url": "https://www.spoj.com/problems/classical/sort=-6,start=0"
+         }, {
+            "date_added": "13232476728062483",
+            "guid": "07d2e18e-0d2c-4a42-b71c-94c8f2d19cba",
+            "id": "18",
+            "name": "Creating a File Upload Component with React | malcoded",
+            "type": "url",
+            "url": "https://malcoded.com/posts/react-file-upload/"
+         }, {
+            "date_added": "13232553293277470",
+            "guid": "49761ee9-9971-4248-af57-add663db96ee",
+            "id": "19",
+            "name": "Deploy! · Django Girls Tutorial",
+            "type": "url",
+            "url": "https://tutorial.djangogirls.org/en/deploy/"
+         }, {
+            "date_added": "13232751268013987",
+            "guid": "a79fbfd2-a8ec-4b6b-bb56-83f733f3a6d8",
+            "id": "20",
+            "name": "Build a To-Do application Using Django and React ― Scotch.io",
+            "type": "url",
+            "url": "https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react"
+         }, {
+            "date_added": "13233165465066272",
+            "guid": "7018f514-e0c4-4599-9cd4-fe5a98057be4",
+            "id": "21",
+            "name": "🔒 | lock (U+1F512) @ Graphemica",
+            "type": "url",
+            "url": "https://graphemica.com/%F0%9F%94%92"
+         }, {
+            "date_added": "13236110149742660",
+            "guid": "84dbf123-6831-417a-b72b-211fd04e4925",
+            "id": "22",
+            "name": "Note App: Room Database",
+            "type": "url",
+            "url": "https://www.pluralsight.com/guides/making-a-notes-app-using-room-database"
+         }, {
+            "date_added": "13237735897018636",
+            "guid": "b7c805bc-9bbc-4669-9b45-b86c04b65208",
+            "id": "23",
+            "name": "GitHub - abhijitsaha99/CodeForces-Ladders: Updated CodeForces Ladders for solving",
+            "type": "url",
+            "url": "https://github.com/abhijitsaha99/CodeForces-Ladders"
+         }, {
+            "date_added": "13238597365345141",
+            "guid": "23be3262-7d43-42ab-9b80-e5fa2deee4f1",
+            "id": "24",
+            "name": "Example Design v2 - Avocode",
+            "type": "url",
+            "url": "https://app.avocode.com/revisions/71491277/?design=48212386"
+         }, {
+            "date_added": "13238688697597265",
+            "guid": "f089b795-bb85-4998-ad70-faae869e9d16",
+            "id": "25",
+            "name": "Flutter signup/login application with Django backend #1 - DEV",
+            "type": "url",
+            "url": "https://dev.to/amartyadev/flutter-app-authentication-with-django-backend-1-21cp"
+         }, {
+            "date_added": "13239137771183851",
+            "guid": "b8aec302-53ca-4b2c-a1dc-3e6fe9db7d75",
+            "id": "26",
+            "name": "Sphere Online Judge (SPOJ) - Problems",
+            "type": "url",
+            "url": "https://www.spoj.com/problems/classical/"
+         }, {
+            "date_added": "13239197761856306",
+            "guid": "6f2485a6-078f-4fc5-a0d6-7350d0b76c82",
+            "id": "27",
+            "name": "Build #1 - piyushpradhan/recipeapi - Travis CI",
+            "type": "url",
+            "url": "https://travis-ci.org/github/piyushpradhan/recipeapi/builds/707893296"
+         }, {
+            "date_added": "13239541753519066",
+            "guid": "059c4372-b1ec-4f31-a663-d6f1446bc1a4",
+            "id": "28",
+            "name": "competitive programming",
+            "type": "url",
+            "url": "https://mega.nz/folder/DC41RCrY#txEGw55gr_1lV7n0g1gfZA"
+         }, {
+            "date_added": "13239542126298016",
+            "guid": "c4a249f2-3c4a-4470-a636-f34d98863f8b",
+            "id": "29",
+            "name": "MEGA",
+            "type": "url",
+            "url": "https://mega.nz/folder/DC41RCrY#txEGw55gr_1lV7n0g1gfZA/folder/uWQm0AjR"
+         }, {
+            "date_added": "13240342358648813",
+            "guid": "d4e4ce44-0f4f-481f-b932-7b140541ff03",
+            "id": "30",
+            "name": "Django REST Framework documentation — DevDocs",
+            "type": "url",
+            "url": "https://devdocs.io/django_rest_framework/"
+         }, {
+            "date_added": "13240467974956549",
+            "guid": "4ad2be6b-d7c6-4f4f-a1c8-ee6c59e48c06",
+            "id": "31",
+            "name": "https://www.udacity.com/course/advanced-android-with-kotlin--ud940",
+            "type": "url",
+            "url": "https://www.udacity.com/course/advanced-android-with-kotlin--ud940"
+         }, {
+            "date_added": "13243887177561381",
+            "guid": "7e7c072c-cfb4-48e4-a848-3a1204aed189",
+            "id": "32",
+            "name": "Flutter Development Roadmap",
+            "type": "url",
+            "url": "https://github.com/olexale/flutter_roadmap"
+         }, {
+            "date_added": "13268895105206391",
+            "guid": "666a7d92-ba57-484b-8942-2be0b62c7fb8",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13268895105207399",
+            "guid": "b69b9265-4b6d-4d51-b9d6-5dcfcfd04491",
+            "id": "6",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         } ],
+         "date_added": "13268895103417345",
+         "date_modified": "13268895105207934",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13268895103417348",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13268895103417350",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CrABCo8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgkAxAeTt8UFACEAxAeTt8UFADIYChYIAhHeMK+it8UFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJAMQHk7fFBQAhAMQHk7fFBQAyGAoWCAIR3jCvorfFBQAYACEAAAAAAAAAACAASNeHu92kL3Ddhse4oy8SACABKhhoNFZhbnRJQU5qV2Npck1NYisxUUxRPT0SrgIIDRKpAgocakU4TjdGRUhmbyt5NW84OG11Z1VWV2cwbG9zPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVm5abHQrSW04OWJLUTk0STQ1czZZd2s5VVp3bGlMd3ZsQVEwWEptRXFTYzBsLzAraXR0VFgycjZvTXhzajJ4TkwvdWd6TzJGVWNpM2FDV0dGUFp0TFJNUTgrQ2VTUllZTitER21QMFh2cVk5UVJENFNVcGpaa2gxVjhkbllqdjQyY1pBYTJBPT0YACACKAIwr/bj6vGs8QI4j7+p4KsuQKmexrijL0ocODJibTFmWHZtT1dPSXdZSEd2ZjNHRHRNRkVjPVogIh7//UxBRXpCdVA5a0lkKzZsR0lmQU5rOHBTMU9uUT1l+ZvBrBKtAggIEqgCChxyVG1yWDRvdkx0Q09tclA3ZE81NnFoTEVJcnM9EqYBWjpBRHF0QVp6dzc5RlBLZ09GU0tkZHBudGI3YkpWblpsdCtJbTg5YktROTRJNDVzNll3cHQrY2crWFdCZ0RFZUJTOEJiN3p5UnJuZEpCTldJaVNOMi9TM1dkdXFlcEZ6T1M0M0JiWU9BYWdvUkovOGcrcHZXSUhTZHRCSnJKaXBNSkVCb29WNFU2bjZLWWxKRFNGQlFuQS9STzlnVlZEV3dPOUE9PRgAIAIoAjDz9uPq8azxAjjH/Ibcoy5Aw4HHuKMvShxXVyt2bTFabWpHL1NsS2psYjdDSWozMUxuUUU9Wh8iHa1EeGh1U2R1eHI2dG1la294VVk0U2NwS0xwVms9ZQark08SrQIICRKoAgocYW56eS8zTXdYdVppY2kycWx1N0ljaW9IRjZBPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVm5abHQrSW04OWJLUTk0STQ1czZZd3NaTGZFTkhmSkZUS2NoenR0NXMyZVV0YWd6MlNZRmVLdEtJTk1oSjhTUkh2TnhBVWJvSTFOUWZoMEFycXpqNHFzUUtRZFlLMmlRUDVhVVNxUkd1bHFiaEJuWTR0amVZbzEzSGsyMkIrcXFmU3ZxN0VRPT0YACACKAIwovnj6vGs8QI42PvBiqQuQMOBx7ijL0ocaFc0RGt1TFo5bzUyT2llMk9nWXJCTjRCTFprPVofIh31M2ZrRklqR1ViaHdtQzVOVHcrUWthSDVyUThVPWWz7CiqEq4CCBESqQIKHEZxTThvRkVkdkpEQUNPUDN4RHFMVUdmLzhTVT0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxFeGtCQkF2RDROS3Jic1JuNzEwdTRoV2lqbmdRMVhUdHVQcERYRWRxM1lNRENJQUNYQldxV2JoQWwxOExHdlVGN0dGOGc0dWdwNEdaSThsRmlFRGUzbHNqTGQzOWNJQkdha0ZZYno1blMwQ1dpcGF3QT09GAAgAigCMLD34+rxrPECOPq7tcO0LkDDgce4oy9KHHBZVHlUcEZhcGlpQXBjQm93ZDhKZlR4K25zbz1aICIe//90YkIwUlhlNDlXajh4VC9zMS9sNnlCMU5INEU9ZRZmHkYSrwIIEhKqAgocYXo2QVlKOW44R3d3SEZQYjc3UFV6aHFOSm1zPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObFB3dGJNNEt5M21XZUh6TTQxOFlKS2U5MTFRUkJaQVNWZHkyZDg1YlkyTFZDNmhKSDN5V2NMeURuTXJRNkppK0d5M0d2QnNOdCtYV0ZqbjhJRUxDZG1uMy94TnpMTW03dWNWWDhqQlpwTjI5VjJNN2hRPT0YACACKAIwk/rj6vGs8QI4+ru1w7QuQMOBx7ijL0ocKzcvUHhjbVZ2WnhPM3p3MjZtLy9yMmlSQjZFPVohIh///7pIYTdTRjNpQ3YrYVEzMmZnN0pEQWIyMythNVk9ZSUY64cSrQIIChKoAgocc3NtUU1qS0RGbU84amxYUHVlWkltS2tEQ3FvPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVm5abHQrSW04OWJLUTk0STQ1czZZd2hqR2hUazA4VnMwMVVpbXhjMXM4eHBvNTN6WGpDTHdoK1lKUm5aVjJrQ0xjTk1mcXJ1K3pwVW5KMG92YVpKMEVLN25UaWdrYzNCSkw3aUJqZmgzbXFucmZnZzlkVzVBMlVRK3JwWXFWSHdrRDlTRkJ3PT0YACACKAIwuvjj6vGs8QI4gcL8yaQuQMOBx7ijL0ocV3ZJZzdQNEFyNHcvTzl6ZHFEZEx1Wm9QZ2VzPVofIh39NU9uSDl3T2pzb0w0Ty9PT1hFRnJPUFFXMmlrPWVBneg9EqsBCAESpgEKHC9FS0xhVVV5TWRiS0VrMUJhMlVpbnlEbmY3ST0STlo6QURxdEFadzVmcFgvdE8rbytGcVFCTHNubHc4dkxHTUhYYjcwZGRkSURGL3k1SVB1MG96MDJrZXExZ3JPdzNRbmJPOVZTVWNacytPeRgAIAAoADCfgM/i8azxAjgAQABKHFUrR0dJdFpFRHBac0lTbE9VYUlUdUlMZE1uST1aAGUAAAAAEq4CCA8SqQIKHFVVVTZXRVhIbUV4bkVpR2FLMkdtYStzSE9BZz0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlZuWmx0K0ltODliS1E5NEk0NXM2WXdpWkJ3c2tmQkZMeDlmUlp3Nk5hM0JpTGwrbnpVK3hsTzIvUVEvVU5yRS9sdmtBYVJsRTRWNXN6cG1jUDkxYTUxSkRNS0VWTEtOakpRL0ZpcW13S0Z0TzBsR1FzTzN1UlVhZzhGanBsWjluZTI0aWlsZz09GAAgAigCMP/44+rxrPECOMDm1Y2wLkDDgce4oy9KHG1aNDZFaTFsb1E2b2VkdWVhU0x4eTVKSTFaTT1aICIe//9ZdWx0ek1sQW02dzF4NjVNcmlKeUllTFZyTm89ZZ3JhKISrgIICxKpAgocV2kraE1hOWZUd09wZE81Z1NRSisxZWFLYnZZPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVm5abHQrSW04OWJLUTk0STQ1czZZd2xncDQ0YXBwN29ucGhvMDQwcWdXdUZWLzNqWnA1bUJSWUh5cnB1SFVncFA5WWMrdExRUDBIRXMzUDBPR05XMnhNNnZHcVA5dG52bStOS3FDR1NpWU9aaHRPNXBZazhLRDRkcEdwdzluOEZsSHRNcmlnPT0YACACKAIw7/nj6vGs8QI4spDYw6UuQMOBx7ijL0occDdydzEweDlSVXE5NVdORGIzQ3VxVTNESWxZPVogIh7/tGM5YjFXQzcrK0thcWZXcHpwdnFxRXZIMzhObz1lNWFtiRKuAggOEqkCChxwL1MzR3VWMzFJTjBDVVMyc25zVmlEQkRTbXc9EqYBWjpBRHF0QVp6dzc5RlBLZ09GU0tkZHBudGI3YkpWblpsdCtJbTg5YktROTRJNDVzNll3cU1qOHY2dU81OWRCZWl1d2pLUFBkSXpiNDIzdGZ0QlArV3p6UDNySHM0ZHlBUUxKMlBmOFZQRW1yUitGc1J2U0hYa2pqY0k2Q21wZTJraTNQZHZCVDdFNEwvV1E4MzNkcnl0NWw1SUpVREJuTnpOWlE9PRgAIAIoAjDQ+uPq8azxAji7lM3krC5Aw4HHuKMvShxuUE50UFNNNTFqYllBYzZ1WDE2bkE0U09BbU09WiAiHv/+WExLZERSbEZ3L3R4UGVRREU2d0RnOTVaZDZNPWXxDkOUEq8CCBMSqgIKHEo0SGxWV2xLQW5MOGE5YzNKS0pTZXlVT0h5QT0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxMWTNPN3BRUUNHb1pKTko2eWFrKy9KZDEyOTlwNHQyMExBQndiQkJHYTlEMFNJL0h5MFdyMUVEOTBINTJsWUh4U0FsVVppdkYvSXAvTVFTdFRHQVlod25BS0JFYTh0ckhlRitZZXdSeGp2OWxaLzRvQT09GAAgAigCMP/64+rxrPECOPq7tcO0LkDDgce4oy9KHEtlNDBucFF6VEowZHU3eXAvZEZIa3BlZTVzOD1aISIf///dTmsvRFhrLzhZbFJIVEM3UUgwejBMb1hsZFM0PWXJXMPMEq8CCBQSqgIKHGMvS1J6bGpNOU9OSlZqSFA0b3owM3AvbER3cz0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxBSFpXR01qVWVKSUtRVXJ4b2JXWUFwMUFTaWM4N205MzNES0NDQXM5b1hHVEZRbnpCL2VlenQzeVJnZEJZa2JmMFpWMkdaRHRaTnVGczNlT3FEQ2FubjZQK2hieFR6c2NlWCtaaVlCeFp0YWw1YVJzZz09GAAgAigCMP384+rxrPECOPq7tcO0LkDEgce4oy9KHGM4OXBsaGI0TXVWK2JXS1B5RWtmbzM3d1J5TT1aISIf///uOHBCd3lMNlF3bm5RK1NIRGREUmZtcXlIOER3PWV9A/FuEsMBCAMSvgEKHHk1V0UyN3VJNnZYL0RlSVNISnpuak1xdVdXcz0SZlo6QURxdEFad2lic3RRdVF4NFlHKzUzSzhONWdVdnd3bDdvQlFLOXZ5TEZVTytXOUFmTi9aSklYcnYzaFQ1NFJ2ZWZNamV6Vk5jbzA3UTRRZ3BXTDdZVG1aZTk4WGFLQTkvbGc9PRgAIAAoADCfgM/i8azxAjgAQABKHDc5bCtMUkVVcGlhRXZERCtHNDNjcFhTdHdCYz1aAGUAAAAAErUCCAYSsAIKHGEzeWxtWWkzaVZRWEdXbjZSRW5qNjZVdjhhND0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlY3RlNSZUg0dkpvSzNnUG1mMnE2cXoxd25UK0lqbHhOMlhzNFVncEtBVDZEWUNyem1zU2JPVXF0V1JnUE9VU20yUjhIYTJkaXpqODBJUlYxZ3R6UXJNdHpDWjlmM29qVHBscGE2a3A1RXd4L00wUzhqekdvNnArR3EyZVJER284aWpad21pQT09GAAgASgBMMT/4+rxrPECOOqPxrijL0DEgce4oy9KHDBFUUpmRVZSNlBlR29pMWxkNXg0WUhadklGdz1aJyIl/////wAAAAS5VWV0RytyTG5XT1JTVE1FeG82Z1dQSHE4aWlnPWWsEmICEq4CCBASqQIKHDZITlp5ZnhrTFlVb2h1WkNHYUFuTCs5WDB6MD0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlZuWmx0K0ltODliS1E5NEk0NXM2WXd1UWVEdjFBOHByRFJpMGZiRi9ZeVh1Yk50dG5RS3FKcEU0ZlpOTDBZZi9ydUJxaTlsQXQ3R0FyVkxONmxGT0g1dGFLVWhDVmErTlFVZTVrSzJPTG82NTdTREJTcnRTb2lZbWUvVXM1ditEN3FMb1hSdz09GAAgAigCMIv/4+rxrPECOKe8xaiyLkDEgce4oy9KHGNIdC9PeThhdmZKYytKSk5IOWlHd2RRY2N4ND1aICIe//9oeWdpZjFZd29UU05keTZPeXpQRHR2UldqTnM9Zci2fQgSrwIIGBKqAgoceEo2Y0JRZ1REY3BGV2VmUXdQNXljNHlsMEM4PRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObEFIR3p0QXBOS1ZSUnU4VC92U3R2dGNIVElVZGZmWjV0Q0hVeFJNclBPcUs2aHFMWDM0dmUrVGNVckNtRXYyVDlDbzZ3cmhFOWpVeWVnYWZGaEVWODM3ZytVaVMxY2JJbHp2TXI0aFdOMXdQNFFydXNBPT0YACACKAIwp//j6vGs8QI4+ru1w7QuQMSBx7ijL0ocek94Wm1kTTFvbWZqbFlOMmllZTBMQ2VmMWwwPVohIh////43ZkZhSmVUeDgrYVVUSjRwa1VsVW80YjJNTHc9Zdp7RfkSsAIIIBKrAgoccTNUMHVyYlRFeiszd3RGQWg3ODJzby9YWlJBPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVkJqbWg0OVZhelUwQjRUZEpaaW9PMDJNSlZoVVZsb2ZheTBiYmFGbDBQOEp6THpoNjdvTzFScldodmI0bng1V2xlYXY0YjBYMmxXNWt4Q091WVZnT2ZLUVVmd2w2UEU1OHBqTkowK21YNW5kV0ppRGxNNFdQTldBSThYdFpnK1cvL21UVDZRPT0YACACKAIwooDk6vGs8QI42c7po8YuQMSBx7ijL0occDhZbTE3czZOZzBXa1J2ZHhEcWl4OEZ5QlgwPVoiIiD////+VnkyVSsxVnpOeENaSXZmbEx5MnRkWncveUYwPWUIDEouErQCCAUSrwIKHE9ITW90ZUwxcEMxZklJUFBSSFJFREJLZnliVT0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlY3RlNSZUg0dkpvSzNnUG1mMnE2cXp6VEovRTZtUWMzUVF6bm1SQ3hqclMrbS90SkdrTFpVRmNXOEhjY29iRFRORCtmTFhGblZVUXlrSFo2eFB1QlBua3BqUWp2UXZnREtNdldKQi9mVlEwckNQRlc4dHZrdXBhQ05lTEJUdGttaEIxQmlHQT09GAAgASgBMIOA5OrxrPECOOqPxrijL0DEgce4oy9KHElMNzlYZkY2UHNoeDZuN0locVl3eDFjUFN0OD1aJiIk/////wAAAARzcVV1a2N0ZkxZZU5jeWJEUTg4WXBQTXViSkE9ZXunQHESsAIIHBKrAgocZFE4bjZESENJMG1DMFhQZ0poQzNULzVBTSt3PRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObEdQeHB2WTl1UWs0MDVBYWNwMThXTjNOK0JmRlRRVEd6UTN5NTJLSENWVUNqQ0g4RWE3ZzAzSE1JYko4T0JoZ0syWlZrNlh1bGoxdCtuWmN0cnErYzVMa1JEREFVc2JxcGw4dFAraVVnSkZzKzU1bFJnPT0YACACKAIwwf7j6vGs8QI4r/3hi7YuQMSBx7ijL0ocRHZWcXNNSUFlVEpGclBRR1pOUDlSWDE1K0lNPVoiIiD////uczR3RzJNeGN6U0VQOWFUYlByMFlCZTJJU2lNPWX/JP83Eq8CCBYSqgIKHHZ3SlF1VFd0ZlAxTkpCbVZzdWd3blZtNHFtND0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxPNU4wYmVlN0NnWk1uT3BVTWh3MXFFNkhnbHBkSkcrM0w2U01rT3p4MWtjeTF1a0xKdWxjTnV2Z0tGU0dqaWQ2N09ubDNwbnl4amxJVSsyd0NaUUlCL0hiSU01a2xVbDR5eS9zTTIwRjRjeWxmZTBNZz09GAAgAigCMMn54+rxrPECOPq7tcO0LkDDgce4oy9KHHBRMTh5T2dvcFJ1bk9QdlN1NWpPNFQrU1VYVT1aISIf///7Nnl1NmNQaDJUemJmVFBjUVU0WVE3RHYvaHJjPWXimasNErACCB0SqwIKHElYM1FKRjR3RHpCZklwdDlGSEVnakQwR29Rdz0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxMNUoyZFUzMTUzTWxPaUVzQnNHRDNmQkh4WDJUSFd2cjJsT1cvSWpRekhidWNsT1Q1aTRJWVRlQ0dmL091NXpNTGRFSm9EdmJFZ2hRbFFEYlU2Mjc5dlc4ZTlGV2hpa0VoS2twV28rS0QyR3lkWU1SUT09GAAgAigCMLn64+rxrPECONrd+Iu2LkDDgce4oy9KHGVRWE9OVFlWeFYwbHNiMGRrUE1WNmZIS2dCTT1aIiIg////90dMNVNhZFUzaVRreXNmWWtxZHVvUDkzWnBPcz1l/yT/NxKvAggXEqoCChxGT3RWcjJKSlVRUng0aWppMkRsMklvMXMvYTA9EqYBWjpBRHF0QVp6dzc5RlBLZ09GU0tkZHBudGI3YkpWK0xBZlRuTzM1ZDBWWS9mVFpnbk5sTGVvM0luSUE5aXh2QXIvYlpXaWg4cHBGbCtRd2Vxei82d2orKzhMbEd6NWw4WSt5a0thbVgwK1o3Rk1tTEg0djNDaElsd2NROEJTVFQzZlVUWDdETkdmc0ZGaUNHNGNnMUl4aUhJZzVJUndvMWxESGc9PRgAIAIoAjC//ePq8azxAjj6u7XDtC5AxIHHuKMvShwvYlhuZ0xzS0FSc3oyVnNxUWJ3clU2VHIrc289WiEiH////WpuQW5LWTdmTE5tdEpLTmY3S0NpMzc4Zi9FOD1l080PABKwAggeEqsCChw2U0o4cjkwcW9IWlc4dEpBZG9HVHkwajA5RlE9EqYBWjpBRHF0QVp6dzc5RlBLZ09GU0tkZHBudGI3YkpWK0xBZlRuTzM1ZDBWWS9mVFpnbk5sQnpzOHNIQ2J5WmpCTVZ4MGFmYWRWKzBtaEQ3dmFMMFZ4cjRGTzZ5ZWMySy9LZlUwaXgyTHZTVXVsUGViV0ViOWNzdWkwL2RrQXJlempEN0dFUmJZdWk4S1g3N2Y2QVRPZkJBSHhNL2k0WDUwYS9qM2c9PRgAIAIoAjDl/uPq8azxAjj5hMOJuS5AxIHHuKMvShxNTUpoVFAzVGxIRGNmNXZDcTAwMHA4UDBzWG89WiIiIP////tNNjFSbThVR0U5ekRUVVZDSzBGN0NwZUJIdGc9ZWeYRXgSrwIIGRKqAgocbVZvY0hXSU1aL0dPZ25oTHZ5Yi9ZMGo3eVNnPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObE13S280YlFiNDlJdG51cjhzWXJpbGtPaXRYcUJHU0dqOGhmZzdPSHJ2Z0NGSTlydVdORGRkY0pkSlhjTHRiNkFhRnFaMzJsNmdRTlp6Y3hIenRKYU1uTnJjNmZkdXdMSXYxVjA5WGtZNC9HbWw0emJBPT0YACACKAIwhf7j6vGs8QI4+ru1w7QuQMSBx7ijL0ocVWMzOFNISzRPR2djUHpYS2k2WFVBSHU2MkxZPVohIh////9xdGlGcjNDNWt5MGYwSkdHczNkVzUwVkpUMXc9ZYOrWh0SrgIIDBKpAgocMzEyRnNseGZBNS95VTQvMWM3azdNN1F2OTQ4PRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVm5abHQrSW04OWJLUTk0STQ1czZZd21sQ0pBODJ0QXQwdmp2TS9MVWxzOVk5OGt3ZmhmOENLNkRDYkdad3FJTzVxL1lGZ0ZvN2QzL3I3RktsSFM2bEgvYUg3MTh1Zjlqdk50Q3FWVnJMMVI1MjJTR1p3NXh4NDNOT2dreGhkZGU1QTBtWFZ3PT0YACACKAIw2/jj6vGs8QI4zubK2KYuQMOBx7ijL0ocRS9GYzJ3M2dxWVRnWXNLVklMS3hMZVp4WElBPVogIh7/+0F3Qk1yMFdhU0VUSzJQcmFPZVJMZjV3cnZVOD1loMAuBxKwAggfEqsCChxKUG5pcEdKbkdLRDhOWitwMzBxSVJkYS9Bc3c9EqYBWjpBRHF0QVp6dzc5RlBLZ09GU0tkZHBudGI3YkpWK0xBZlRuTzM1ZDBWWS9mVFpnbk5sSTlqbnB2UkI1V1VVYjRabzc4YnJKSXZNRXI1aU5VNHRodzI0dkd2RTB4VnRSSzh6ZTVxT1hxUDNvVXRRczJDSjI2cmdnRlpGaXQyMzMxOXYyNzBHRSt2NFRkSkQwOXZ1cnRYN2F1NTRlZGFBSWxFRFE9PRgAIAIoAjCk/uPq8azxAjishrbFuS5AxIHHuKMvShxVSXo2WXFDcEpFdkZhVk96WmdEVmhxbjZlWGs9WiIiIP////1lVXhTTEJSTlBiQTk2d2tPa2FHWi9UamNseU09ZYMDGeQSrwIIFRKqAgocK2pvKysvWllVU25rbG9zbGxodTBlaGxIYVU0PRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObEhqZVdkaWphdnRnei80WW9DTXJKUis3ZEpoeUZxMlhHVkYwU2p2dFFFeHIwaG5QNmY5WmcrR2JYOHJRUm9tTlpER0EvWkxCM2JEMTRkT29sMDd3eEtNYkszV2RXempjTERiUHVHRW9xSDFHTElpdC9nPT0YACACKAIw4f3j6vGs8QI4+ru1w7QuQMSBx7ijL0oca1ZtSjFQajhlaWNydzZBZnkzaVBPVGVJa1lVPVohIh////dCcUttcmhUQnB2cEhVMXh1V0JseE1PanRhdHc9ZTw1bLQSsAIIGhKrAgocQVR3b1k0c21DMG4rb2l0VlV1elNTWmlQTEFnPRKmAVo6QURxdEFaenc3OUZQS2dPRlNLZGRwbnRiN2JKVitMQWZUbk8zNWQwVlkvZlRaZ25ObExzUVFhQWw3TStBNnFiSFlTaEsrd3pxZ2dxcFNoQWZVRnRyTG5EODNUVXozcjRFWmhKN3lnQWRXYVNpUkxKUGpoYTU5cys3TXh3S2xjY1h0SFVSMFEraGVXZGxQZUNwQ1hQRElZUFZEZE5qMnRyeFpnPT0YACACKAIw1vfj6vGs8QI4sO2Qy7QuQMOBx7ijL0ocdjRTb3o4YUdBVDhKcEJIR3E3N0Y0TnA5RmxJPVoiIiD///+4TklhaTY2ZXBPM2JvclJKem1Pd1RPVHM4V3RnPWUWZh5GErACCBsSqwIKHG9CUWlYWFBtckZaUW5wNFFHVFNGQzVZTk5XYz0SpgFaOkFEcXRBWnp3NzlGUEtnT0ZTS2RkcG50YjdiSlYrTEFmVG5PMzVkMFZZL2ZUWmduTmxNWDhzZVBxdUNERm1rMFRPQ2RHdVRybmhBT3ZDVU1PbFIySFVpbDVRaTBIRWw4dkNaeVk1YUdkV3pmUTV0UlFnVUg5T24wdEtKUS9GYXJBWTJGY0JwZWZ1SWZLMzlNSXNIdDJwSG5uUnNYVzJJV1A0QT09GAAgAigCMOL/4+rxrPECOMCy3ue0LkDEgce4oy9KHGYvS2xvUEZwWk44UHFiQ01EblF0SU4wbUo0cz1aIiIg////3HNvR01zOXRKdXNLZ1pCTmVlMjhUN3BJOHhWRT1laz9uxxLDAQgCEr4BChx6RFZHcnJ0WkxkTSs0QlR5YmcrSENPcldneW89EmZaOkFEcXRBWnkyekJzdmp2QXF2b3JwRmJ2am5QN3dYWDhkZTdHMXlsT1lGWHRCYnRUYUdFdE85ZjBjM0x3Z3V0N3ZIeGlhU0xJQnRYVTlsZ3V2WWRldVNxamVmcVljc3ZlQlBRPT0YACAAKAAwn4DP4vGs8QI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WgBlAAAAABgBIIiOu92kLygA",
+   "version": 1
+}

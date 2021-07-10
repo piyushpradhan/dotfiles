@@ -1,0 +1,7 @@
+[2021-07-05 13:17:05.149] [renderer1] [error] Error: No authentication provider 'github' is currently registered.
+    at L.getSessions (file:///snap/code/67/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2000:11965)
+    at async bi.getAccounts (file:///snap/code/67/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2417:10540)
+    at async bi.update (file:///snap/code/67/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2417:10277)
+    at async bi.initialize (file:///snap/code/67/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2417:9247)
+    at async bi.waitAndInitialize (file:///snap/code/67/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2417:8647)
+[2021-07-05 13:17:05.151] [renderer1] [warning] Settings Sync: Accounts are not initialized

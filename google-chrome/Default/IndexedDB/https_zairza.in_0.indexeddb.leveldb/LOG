@@ -1,0 +1,7 @@
+2021/06/30-00:01:00.422 cd39 Reusing MANIFEST /home/piyush/.config/google-chrome/Default/IndexedDB/https_zairza.in_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/30-00:01:00.423 cd39 Recovering log #21
+2021/06/30-00:01:00.423 cd39 Reusing old log /home/piyush/.config/google-chrome/Default/IndexedDB/https_zairza.in_0.indexeddb.leveldb/000021.log 
+2021/06/30-00:01:00.878 ccb6 Level-0 table #27: started
+2021/06/30-00:01:00.912 ccb6 Level-0 table #27: 573 bytes OK
+2021/06/30-00:01:00.963 ccb6 Delete type=0 #21
+2021/06/30-00:01:00.964 ccb6 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2021/07/03-14:12:54.932 1073 Reusing MANIFEST /home/piyush/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/03-14:12:54.933 1073 Recovering log #4
+2021/07/03-14:12:57.477 1073 Reusing old log /home/piyush/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2021/07/03-14:13:26.883 1060 Level-0 table #8: started
+2021/07/03-14:13:27.817 1060 Level-0 table #8: 1901348 bytes OK
+2021/07/03-14:13:28.262 1060 Delete type=0 #4

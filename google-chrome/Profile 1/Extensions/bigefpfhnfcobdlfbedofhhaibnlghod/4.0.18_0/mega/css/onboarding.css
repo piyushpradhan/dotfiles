@@ -1,0 +1,240 @@
+
+.onboarding{
+	border-radius:100%;
+	cursor:pointer;
+	height:30px;
+	left:17px;
+	padding-top:6px;
+	position:absolute;
+	top:177px;
+	width:36px;
+	z-index:450
+}
+.onboarding .main,.onboarding .outer,.onboarding .wrapper{
+	border-radius:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box
+}
+.onboarding .main{
+	background-image:linear-gradient(180deg, #fff, #fcfcfc);
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .15);
+	height:16px;
+	margin:2px auto 0;
+	width:16px
+}
+.onboarding .wrapper{
+	background-image:linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 98.8%, .15));
+	border:2px solid #fcfcfc;
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .5);
+	cursor:pointer;
+	height:24px;
+	margin:0 auto;
+	position:relative;
+	width:24px;
+	z-index:448
+}
+.onboarding .outer{
+	animation-direction:normal;
+	animation-duration:2.5s;
+	animation-iteration-count:infinite;
+	animation-name:hint;
+	animation-timing-function:ease-out;
+	background-color:hsla(0, 0%, 80%, .38);
+	border:1px solid transparent;
+	height:30px;
+	margin:4px auto 0;
+	padding-top:3px;
+	position:relative;
+	top:-31px;
+	width:30px;
+	z-index:446
+}
+@keyframes hint{
+0%{
+	background-color:hsla(0, 0%, 80%, .3);
+	transform:scale(.8) translateZ(0)
+}
+70%{
+	background-color:hsla(0, 0%, 80%, .6);
+	transform:scale(1.15) translateZ(0)
+}
+95%{
+	background-color:hsla(0, 0%, 80%, 0);
+	transform:scale(1.15) translateZ(0)
+}
+to{
+	background-color:hsla(0, 0%, 80%, 0);
+	transform:scale(1) translateZ(0)
+}
+}
+.onboarding.active .outer,.onboarding:hover .outer{
+	animation-direction:normal;
+	animation-duration:.2s;
+	animation-iteration-count:1;
+	animation-name:hint-hover;
+	animation-timing-function:ease-in;
+	cursor:pointer
+}
+@keyframes hint-hover{
+0%{
+	background-color:hsla(0, 0%, 80%, .28);
+	border:1px solid transparent;
+	height:30px;
+	margin-top:4px;
+	padding-top:2px;
+	width:30px
+}
+to{
+	background-color:hsla(0, 0%, 80%, .3);
+	border:1px solid hsla(0, 0%, 50.2%, .3);
+	height:36px;
+	margin-top:1px;
+	padding-top:5px;
+	width:36px
+}
+}
+.onboarding.active .outer,.onboarding:hover .outer{
+	background-color:hsla(0, 0%, 80%, .3);
+	border:1px solid hsla(0, 0%, 50.2%, .1);
+	height:36px;
+	margin-top:1px;
+	padding-top:5px;
+	width:36px
+}
+.onboarding.active .main,.onboarding:hover .main{
+	animation-duration:.2s;
+	animation-name:hint-hover-inner;
+	animation-timing-function:linear
+}
+@keyframes hint-hover-inner{
+0%{
+	transform:scale(1.2)
+}
+to{
+	transform:scale(.95)
+}
+}
+.onboarding.active .main,.onboarding:hover .main{
+	background-image:linear-gradient(180deg, #fff, #fcfcfc);
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, .15);
+	cursor:pointer;
+	height:12px;
+	margin:4px auto 0;
+	width:12px
+}
+.onboarding.animate-out .outer{
+	animation-direction:alternate-reverse;
+	animation-duration:.2s;
+	animation-name:hint-hover;
+	animation-timing-function:ease-in
+}
+.onboarding.animate-out .main{
+	animation-direction:alternate-reverse;
+	animation-duration:.2s;
+	animation-name:hint-hover-inner;
+	animation-timing-function:linear
+}
+.onboarding-dialog{
+	animation-name:none;
+	position:absolute
+}
+.onboarding-dialog.animate-in{
+	animation-duration:.6s;
+	animation-name:onboarding-dialog-active;
+	animation-timing-function:ease-in
+}
+.onboarding-dialog.animate-in.flipped-animation{
+	animation-duration:.6s;
+	animation-name:onboarding-dialog-active-flipped;
+	animation-timing-function:ease-in
+}
+@keyframes onboarding-dialog-active{
+0%{
+	max-height:0;
+	max-width:0;
+	opacity:.6
+}
+20%{
+	max-height:30%;
+	max-width:30%;
+	opacity:.8
+}
+60%{
+	max-height:80%;
+	max-width:80%
+}
+to{
+	max-height:100%;
+	max-width:100%;
+	opacity:1
+}
+}
+@keyframes onboarding-dialog-active-flipped{
+0%{
+	opacity:.6
+}
+20%{
+	opacity:.8
+}
+to{
+	opacity:1
+}
+}
+.onboarding-dialog.animate-in>*{
+	animation-duration:.6s;
+	animation-name:onboarding-dialog-active-late-fadein;
+	animation-timing-function:ease-in
+}
+@keyframes onboarding-dialog-active-late-fadein{
+0%{
+	opacity:0
+}
+60%{
+	opacity:0
+}
+to{
+	opacity:1
+}
+}
+.onboarding-dialog.animate-out{
+	animation-direction:alternate-reverse;
+	animation-duration:.3s;
+	animation-name:onboarding-dialog-active;
+	animation-timing-function:ease-in
+}
+.onboarding-dialog.animate-out.flipped-animation{
+	animation-direction:alternate-reverse;
+	animation-duration:.3s;
+	animation-name:onboarding-dialog-active-flipped;
+	animation-timing-function:ease-in
+}
+.onboarding-dialog.animate-out>*{
+	animation-direction:alternate-reverse;
+	animation-duration:.6s;
+	animation-name:onboarding-dialog-active-late-fadein;
+	animation-timing-function:ease-in
+}
+.onboarding.animate-hide{
+	animation-duration:.6s;
+	animation-name:onboarding-hide;
+	animation-timing-function:ease-in
+}
+@keyframes onboarding-hide{
+0%{
+	opacity:1;
+	transform:scale(1)
+}
+60%{
+	opacity:1;
+	transform:scale(1)
+}
+80%{
+	opacity:.2;
+	transform:scale(1)
+}
+to{
+	opacity:0;
+	transform:scale(3)
+}
+}

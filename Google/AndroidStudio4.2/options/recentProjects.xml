@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/flutterProjects/demo">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1uBE5oHKQE5hsNJO9WPsbCuKPbG">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-202.7660.26.42.7351085" />
+              <option name="buildTimestamp" value="1620668694630" />
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1624712992433" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/flutterProjects/pixelate">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1uUH4JaskqNvKZkT1yPdV8FyRZW">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-202.7660.26.42.7351085" />
+              <option name="buildTimestamp" value="1620668682028" />
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1624713771474" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/flutterProjects/pixelate" />
+        <option value="$USER_HOME$/flutterProjects/demo" />
+      </list>
+    </option>
+  </component>
+</application>

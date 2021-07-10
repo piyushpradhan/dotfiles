@@ -1,0 +1,400 @@
+.dropdown.body.popup.contacts-search{
+	padding:0 0 0 12px;
+	width:420px
+}
+body.br .dropdown.body.popup.contacts-search,body.fr .dropdown.body.popup.contacts-search,body.id .dropdown.body.popup.contacts-search,body.it .dropdown.body.popup.contacts-search{
+	width:456px
+}
+body.tl .dropdown.body.popup.contacts-search{
+	width:480px
+}
+.popup.add-participant-selector{
+	left:auto !important;
+	right:12px
+}
+.popup.add-participant-selector .dropdown-white-arrow{
+	margin-left:50px
+}
+.new-group-chat .description.chatlinks-intermediate-msg{
+	margin:4px 0 0
+}
+.contacts-search-header{
+	border-radius:19px;
+	box-sizing:border-box;
+	margin:0 12px 0 0;
+	overflow:hidden;
+	position:relative;
+	z-index:10
+}
+.new-group-chat .contacts-search-header{
+	border-radius:unset;
+	padding:0
+}
+.contacts-search-header input,.search-block.emoji input{
+	border:1px solid var(--stroke-grey-2);
+	border-radius:4px;
+	display:block;
+	font-size:13px;
+	margin:12px 0 0 40px;
+	padding:0;
+	transition:all .2s ease-in-out;
+	vertical-align:top;
+	width:186px
+}
+.contacts-search-header input,.search-block.emoji input{
+	background:var(--surface-grey-1);
+	color:var(--text-color-medium);
+	line-height:24px;
+	font:var(--text-body1)
+}
+.contacts-search-header input{
+	border:0;
+	border-radius:18px;
+	box-sizing:border-box;
+	margin:0;
+	padding:4px 30px 4px 38px;
+	width:100%
+}
+.contacts-search-header input::-webkit-input-placeholder{
+	color:#555
+}
+.contacts-search-header input:-moz-placeholder,.contacts-search-header input::-moz-placeholder{
+	color:#555;
+	opacity:1
+}
+.contacts-search-header input:-ms-input-placeholder{
+	color:#555
+}
+.contacts-search-header input:focus::-webkit-input-placeholder{
+	color:#ccc
+}
+.contacts-search-header input:-moz-placeholder,.contacts-search-header input:focus::-moz-placeholder{
+	color:#ccc;
+	opacity:1
+}
+.contacts-search-header input:focus:-ms-input-placeholder{
+	color:#ccc
+}
+.contacts-search-header>i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest);
+	left:8px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%)
+}
+.search-block.emoji>i{
+	--icon-size:24px;
+	--mask-color:var(--icon-inactive);
+	margin:11px 3px 1px 8px;
+	position:absolute;
+	vertical-align:top
+}
+.contacts-search-scroll{
+	height:80%;
+	margin-top:8px;
+	max-height:426px;
+	min-height:288px;
+	overflow:hidden
+}
+.contacts-search-scroll .jspPane{
+	min-height:70%
+}
+.contacts-search-scroll .jspContainer{
+	max-height:426px
+}
+.contacts-search-scroll .jspPane em{
+	color:#666;
+	display:block;
+	font-style:normal;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	vertical-align:middle
+}
+.contacts-search-list .contacts-info.body.contacts-search{
+	border-bottom:1px solid var(--table-border);
+	box-sizing:border-box;
+	cursor:pointer;
+	height:49px;
+	padding:8px 0;
+	width:calc(100% - 7px)
+}
+.contacts-search-list .contacts-info.body.contacts-search img{
+	height:32px;
+	width:32px
+}
+.contacts-search-list .contacts-info.body.contacts-search:last-child{
+	margin-bottom:12px
+}
+.contacts-search .user-card-presence{
+	margin:2px 4px 6px 8px
+}
+.contacts-search .user-card-data{
+	padding:0 30px 0 79px
+}
+.contacts-search .user-card-email{
+	font-size:13px;
+	line-height:18px
+}
+.contacts-search .user-card-name{
+	display:inline-block;
+	font-size:14px;
+	line-height:19px;
+	max-width:-webkit-calc(100% - 24px);
+	max-width:-moz-calc(100% - 24px);
+	max-width:calc(100% - 24px)
+}
+.dropdown.body.popup.contacts-search footer{
+	padding-right:12px
+}
+.horizontal-contacts-list{
+	height:78px;
+	margin-right:12px;
+	position:relative
+}
+.horizontal-contacts-list div.ps-container>.ps-scrollbar-x-rail>.ps-scrollbar-x{
+	bottom:0;
+	height:6px
+}
+.selected-contact-block{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-size:0;
+	line-height:0;
+	min-height:78px;
+	overflow:auto
+}
+.horizontal-contacts-list .horizontal-only{
+	height:auto
+}
+.selected-contact-block .select-contact-centre{
+	display:inline-block;
+	vertical-align:top
+}
+.horizontal-contacts-list .selected-contact-block .small-rounded-avatar{
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:block;
+	float:none;
+	height:36px;
+	line-height:35px;
+	margin:0 auto;
+	width:36px
+}
+.horizontal-contacts-list .selected-contact-block .small-rounded-avatar img{
+	height:100%;
+	width:100%
+}
+.horizontal-contacts-list .selected-contact-block .user-card-data{
+	display:block;
+	float:none;
+	padding:2px 4px;
+	text-align:center
+}
+.selected-contact-block .selected-contact-card{
+	float:left;
+	height:54px;
+	margin:14px 0 0;
+	position:relative;
+	width:54px
+}
+.selected-contact-block .selected-contact-card:last-of-type{
+	margin-right:0
+}
+.horizontal-contacts-list .selected-contact-block .user-card-name.light{
+	font-size:12px;
+	max-width:-webkit-calc(100% - 2px);
+	max-width:-moz-calc(100% - 2px);
+	max-width:calc(100% - 2px)
+}
+.selected-contact-block .remove-contact-bttn{
+	background:var(--surface-grey-1);
+	border:1px solid var(--stroke-grey-2);
+	border-radius:100%;
+	cursor:pointer;
+	height:16px;
+	position:absolute;
+	right:6px;
+	text-align:center;
+	top:-6px;
+	width:16px;
+	z-index:10
+}
+.selected-contact-block .remove-contact-icon{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAAEhcmxxAAAAAXNSR0IArs4c6QAAANVJREFUKBVtkcENwkAMBHMIaACFGnjmmxLSBm3QVCIK4YPoIj/eHLO2L7oQLFlZr3dtn9LknFNTgiI7BozGBzU1gFY9vtd9gDmldEowM8RFpMnkIYp8Bo/WDIEIhQlsIMWiAJ/Jtxq3xeajO6tpPJUxrgMrDnXz5VyQP0pzituh0swHeRRB7U3Ah/SZ0aDu7SqAQkf4G2SNgNNBeqMGDEYDWlIGhRn5FqG4kVy2lWHaJmN5DTDfya1QDhr1RAlXG+uptXC1GtPmVDPSGMj/q327/lsv8RfGGzPdsYCikgAAAABJRU5ErkJggg==);
+	background-repeat:no-repeat;
+	background-size:6px;
+	display:block;
+	height:6px;
+	margin:3px auto;
+	width:6px
+}
+.contacts-search-header input~.search-result-clear{
+	cursor:pointer;
+	position:absolute;
+	right:8px;
+	top:50%;
+	transform:translateY(-50%)
+}
+.contacts-search-header input~.search-result-clear i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest)
+}
+.popup.contacts-search .search-result-clear:hover{
+	opacity:1
+}
+.popup.contacts-search .selected-contact-amount{
+	color:#777e82;
+	font-size:13px;
+	line-height:32px;
+	margin-left:12px
+}
+.contacts-search-buttons{
+	align-items:center;
+	display:flex;
+	justify-content:space-evenly;
+	padding:19px 9px 5px 0
+}
+.contacts-search-buttons .button-wrapper{
+	text-align:center
+}
+.contacts-search-buttons .button-title{
+	color:var(--text-color-high);
+	display:block;
+	font:var(--text-body2);
+	padding:4px 0 0
+}
+.contacts-search-bottom i,.contacts-search-buttons i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest)
+}
+.contacts-search-bottom i{
+	--mask-color:var(--secondary-green)
+}
+.contacts-search-buttons .link-button.light{
+	display:inline-block;
+	margin:2px 0;
+	width:100%
+}
+.contacts-search-bottom{
+	padding:20px 0;
+	width:100%
+}
+.contacts-list-header{
+	background:var(--surface-grey-2);
+	border-radius:4px;
+	color:var(--text-color-high);
+	height:20px;
+	margin:0 12px 0 0;
+	padding:0 8px;
+	text-align:left
+}
+.new-group-chat .contacts-list-header{
+	margin:0
+}
+.contacts-list-empty-txt{
+	color:var(--text-color-medium);
+	font:var(--text-body2);
+	padding:25px 0 0;
+	text-align:center
+}
+.contacts-search-scroll+.contacts-list-header{
+	margin-top:11px
+}
+.contacts-search-header+.contacts-list-header{
+	margin-top:12px
+}
+.contacts-search-list{
+	padding:7px 0 0
+}
+.add-participant-selector .contacts-search-header{
+	margin:0 0 12px
+}
+.dropdown.body.popup.emoji{
+	height:400px;
+	padding:0
+}
+.popup-footer.emoji,.popup-header.emoji{
+	border-bottom:1px solid var(--stroke-grey-2);
+	box-sizing:border-box;
+	height:48px;
+	margin:3px 12px 0;
+	position:relative;
+	z-index:10
+}
+.popup-footer.emoji{
+	border-bottom:0;
+	border-top:1px solid var(--stroke-grey-2)
+}
+.popup-header.emoji input{
+	border:0;
+	border-radius:18px;
+	color:var(--text-color-high);
+	display:inline-block;
+	font:var(--text-body1);
+	margin:6px 0 0;
+	padding:7px 7px 7px 40px;
+	width:100%
+}
+.popup-scroll-area.emoji{
+	max-height:302px;
+	overflow:hidden;
+	position:relative;
+	z-index:10
+}
+.popup-scroll-area .emojis-not-found{
+	color:#999;
+	margin-left:132px;
+	position:relative;
+	top:10px
+}
+.popup-scroll-content.emoji{
+	min-height:312px;
+	padding:12px
+}
+.popup-scroll-area.gif-popup{
+	max-height:520px;
+	overflow:hidden;
+	position:relative;
+	z-index:10
+}
+.dark-direct-tooltip.simpletip-tooltip{
+	display:block;
+	opacity:0;
+	position:absolute;
+	transition:opacity .2s ease-in-out 1s;
+	transition-delay:.5s;
+	white-space:normal;
+	z-index:3000
+}
+.rtl .dark-direct-tooltip.simpletip-tooltip{
+	direction:rtl
+}
+.dark-direct-tooltip.simpletip-tooltip span{
+	position:relative;
+	z-index:1
+}
+.dark-direct-tooltip.simpletip-tooltip.delay{
+	transition-delay:1ms
+}
+.dark-direct-tooltip.simpletip-tooltip.visible{
+	opacity:1
+}
+.dark-direct-tooltip.simpletip-tooltip i{
+	--mask-color:var(--surface-grey-1-inverted);
+	--icon-size:24px;
+	height:16px;
+	overflow:hidden
+}
+.dark-direct-tooltip.simpletip-tooltip.inverted i{
+	--mask-color:var(--surface-grey-1)
+}
+.dark-direct-tooltip.simpletip-tooltip.center-align{
+	text-align:center
+}
+.dark-direct-tooltip.simpletip-tooltip.medium-width{
+	max-width:220px
+}

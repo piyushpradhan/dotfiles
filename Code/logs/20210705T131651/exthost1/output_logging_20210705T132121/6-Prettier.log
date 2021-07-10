@@ -1,0 +1,2321 @@
+["INFO" - 1:21:21 pm] Extension Name: esbenp.prettier-vscode.
+["INFO" - 1:21:21 pm] Extension Version: 8.0.1.
+["INFO" - 1:22:46 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:22:46 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:22:46 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:22:46 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:22:46 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:22:46 pm] Formatting completed in 304.025476ms.
+["INFO" - 1:23:09 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:23:09 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:23:09 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:23:09 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:23:09 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:23:09 pm] Formatting completed in 48.185184ms.
+["INFO" - 1:24:16 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:24:16 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:24:16 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:24:16 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:24:16 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:24:16 pm] Formatting completed in 34.407075ms.
+["INFO" - 1:24:46 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:24:46 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:24:46 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:24:46 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:24:46 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:24:46 pm] Formatting completed in 67.706198ms.
+["INFO" - 1:27:21 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:27:21 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:27:21 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:27:21 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:27:21 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:27:21 pm] Formatting completed in 32.271079ms.
+["INFO" - 1:27:39 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:27:39 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:27:39 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:27:39 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:27:39 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:27:39 pm] Formatting completed in 65.393752ms.
+["INFO" - 1:27:51 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:27:51 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:27:51 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:27:51 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:27:51 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:27:51 pm] Formatting completed in 49.781738ms.
+["INFO" - 1:28:16 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js
+["INFO" - 1:28:16 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:28:16 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:28:16 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:28:16 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js",
+  "parser": "babel"
+}
+["INFO" - 1:28:16 pm] Formatting completed in 68.51301ms.
+["INFO" - 1:29:16 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js
+["INFO" - 1:29:16 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:29:16 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:29:16 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:29:16 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js",
+  "parser": "babel"
+}
+["INFO" - 1:29:16 pm] Formatting completed in 66.440274ms.
+["INFO" - 1:31:39 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js
+["INFO" - 1:31:39 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:31:39 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:31:39 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:31:39 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/SideBar/SideBar.js",
+  "parser": "babel"
+}
+["INFO" - 1:31:39 pm] Formatting completed in 50.093841ms.
+["INFO" - 1:31:45 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:31:45 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:31:45 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:31:45 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:31:45 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:31:45 pm] Formatting completed in 59.431161ms.
+["INFO" - 1:31:48 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:31:48 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:31:48 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:31:48 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:31:48 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:31:48 pm] Formatting completed in 33.215893ms.
+["INFO" - 1:33:38 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:33:38 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:33:38 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:33:38 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:33:38 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 411,
+  "rangeStart": 367
+}
+["INFO" - 1:33:38 pm] Formatting completed in 65.625413ms.
+["INFO" - 1:33:41 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:33:41 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:33:41 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:33:41 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:33:41 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 410,
+  "rangeStart": 366
+}
+["INFO" - 1:33:41 pm] Formatting completed in 40.226119ms.
+["INFO" - 1:33:47 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:33:47 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:33:47 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:33:47 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:33:47 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 453,
+  "rangeStart": 409
+}
+["INFO" - 1:33:47 pm] Formatting completed in 30.891003ms.
+["INFO" - 1:33:48 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:33:48 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:33:48 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:33:48 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:33:48 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:33:48 pm] Formatting completed in 73.226982ms.
+["INFO" - 1:33:54 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:33:54 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:33:54 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:33:54 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:33:54 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 581,
+  "rangeStart": 537
+}
+["INFO" - 1:33:54 pm] Formatting completed in 53.515436ms.
+["INFO" - 1:35:18 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:35:18 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:35:18 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:35:18 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:35:18 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1673,
+  "rangeStart": 1594
+}
+["INFO" - 1:35:18 pm] Formatting completed in 66.214322ms.
+["INFO" - 1:35:34 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:35:34 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:35:34 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:35:34 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:35:34 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1943,
+  "rangeStart": 1857
+}
+["INFO" - 1:35:34 pm] Formatting completed in 53.701116ms.
+["INFO" - 1:35:38 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:35:38 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:35:38 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:35:38 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:35:38 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:35:38 pm] Formatting completed in 33.83198ms.
+["INFO" - 1:35:56 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:35:56 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:35:56 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:35:56 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:35:56 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:35:56 pm] Formatting completed in 79.702999ms.
+["INFO" - 1:38:02 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:38:02 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:38:02 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:38:02 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:38:02 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:38:02 pm] Formatting completed in 69.599787ms.
+["INFO" - 1:38:34 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:38:34 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:38:34 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:38:34 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:38:34 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2479,
+  "rangeStart": 1523
+}
+["INFO" - 1:38:34 pm] Formatting completed in 75.174867ms.
+["INFO" - 1:38:42 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:38:42 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:38:42 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:38:42 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:38:42 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:38:42 pm] Formatting completed in 41.659823ms.
+["INFO" - 1:38:51 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:38:51 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:38:51 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:38:51 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:38:51 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:38:51 pm] Formatting completed in 69.412909ms.
+["INFO" - 1:41:48 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:41:48 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:41:48 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:41:48 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:41:48 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1814,
+  "rangeStart": 1795
+}
+["INFO" - 1:41:48 pm] Formatting completed in 52.63491ms.
+["INFO" - 1:41:51 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:41:51 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:41:51 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:41:51 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:41:51 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1859,
+  "rangeStart": 1840
+}
+["INFO" - 1:41:51 pm] Formatting completed in 45.030109ms.
+["INFO" - 1:41:56 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:41:56 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:41:56 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:41:56 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:41:56 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1901,
+  "rangeStart": 1882
+}
+["INFO" - 1:41:56 pm] Formatting completed in 46.528247ms.
+["INFO" - 1:42:08 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:42:08 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:42:08 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:42:08 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:42:08 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:42:08 pm] Formatting completed in 64.959599ms.
+["INFO" - 1:43:20 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:43:20 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:43:20 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:43:20 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:43:20 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 1971,
+  "rangeStart": 1925
+}
+["INFO" - 1:43:20 pm] Formatting completed in 73.457503ms.
+["INFO" - 1:43:46 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:43:46 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:43:46 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:43:46 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:43:46 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2065,
+  "rangeStart": 2011
+}
+["INFO" - 1:43:46 pm] Formatting completed in 71.815977ms.
+["INFO" - 1:43:52 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:43:52 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:43:52 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:43:52 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:43:52 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2119,
+  "rangeStart": 2065
+}
+["INFO" - 1:43:52 pm] Formatting completed in 52.996117ms.
+["INFO" - 1:44:16 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:44:16 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:44:16 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:44:16 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:44:16 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2195,
+  "rangeStart": 2151
+}
+["INFO" - 1:44:16 pm] Formatting completed in 67.074127ms.
+["INFO" - 1:44:37 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:44:37 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:44:37 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:44:37 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:44:37 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2529,
+  "rangeStart": 2436
+}
+["INFO" - 1:44:37 pm] Formatting completed in 63.860945ms.
+["INFO" - 1:44:53 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:44:53 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:44:53 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:44:53 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:44:53 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:44:53 pm] Formatting completed in 50.872229ms.
+["INFO" - 1:45:00 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:45:00 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:45:00 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:45:00 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:45:00 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2606,
+  "rangeStart": 2520
+}
+["INFO" - 1:45:00 pm] Formatting completed in 49.035344ms.
+["INFO" - 1:45:09 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:45:09 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:45:09 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:45:09 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:45:09 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2692,
+  "rangeStart": 2606
+}
+["INFO" - 1:45:09 pm] Formatting completed in 64.918376ms.
+["INFO" - 1:45:18 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:45:18 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:45:18 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:45:18 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:45:18 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2782,
+  "rangeStart": 2696
+}
+["INFO" - 1:45:18 pm] Formatting completed in 69.13089ms.
+["INFO" - 1:45:42 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:45:42 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:45:42 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:45:42 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:45:42 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2872,
+  "rangeStart": 2786
+}
+["INFO" - 1:45:42 pm] Formatting completed in 47.504272ms.
+["INFO" - 1:45:50 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:45:50 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:45:50 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:45:50 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:45:50 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2958,
+  "rangeStart": 2872
+}
+["INFO" - 1:45:50 pm] Formatting completed in 69.765464ms.
+["INFO" - 1:46:03 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:46:03 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:46:03 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:46:03 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:46:03 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2950,
+  "rangeStart": 2935
+}
+["INFO" - 1:46:03 pm] Formatting completed in 43.248743ms.
+["INFO" - 1:46:07 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:46:07 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:46:07 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:46:07 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:46:07 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 3044,
+  "rangeStart": 2960
+}
+["INFO" - 1:46:07 pm] Formatting completed in 28.761677ms.
+["INFO" - 1:46:16 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:46:16 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:46:16 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:46:16 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:46:16 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:46:16 pm] Formatting completed in 77.90648ms.
+["INFO" - 1:46:30 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:46:30 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:46:30 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:46:30 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:46:30 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 3136,
+  "rangeStart": 3048
+}
+["INFO" - 1:46:30 pm] Formatting completed in 57.492365ms.
+["INFO" - 1:46:49 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:46:49 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:46:49 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:46:49 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:46:49 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 3234,
+  "rangeStart": 3143
+}
+["INFO" - 1:46:49 pm] Formatting completed in 88.256752ms.
+["INFO" - 1:47:04 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:47:04 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:47:04 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:47:04 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:47:04 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:47:04 pm] Formatting completed in 90.552761ms.
+["INFO" - 1:47:07 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:47:07 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:47:07 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:47:07 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:47:07 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 3341,
+  "rangeStart": 3231
+}
+["INFO" - 1:47:07 pm] Formatting completed in 53.513596ms.
+["INFO" - 1:47:08 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:47:08 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:47:08 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:47:08 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:47:08 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:47:08 pm] Formatting completed in 88.666974ms.
+["INFO" - 1:48:53 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:48:53 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:48:53 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:48:53 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:48:53 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:48:53 pm] Formatting completed in 78.051796ms.
+["INFO" - 1:55:57 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:55:57 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:55:57 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:55:57 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:55:57 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:55:57 pm] Formatting completed in 62.656166ms.
+["INFO" - 1:57:13 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:57:13 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:57:13 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:57:13 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:57:13 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:57:13 pm] Formatting completed in 84.998867ms.
+["INFO" - 1:59:25 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 1:59:25 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 1:59:25 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:59:25 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:59:25 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 1:59:25 pm] Formatting completed in 70.647894ms.
+["INFO" - 2:00:07 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:00:07 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:00:07 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:00:07 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:00:07 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:00:07 pm] Formatting completed in 77.227621ms.
+["INFO" - 2:00:29 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:00:29 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:00:29 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:00:29 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:00:29 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:00:29 pm] Formatting completed in 54.090986ms.
+["INFO" - 2:00:46 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:00:46 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:00:46 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:00:46 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:00:46 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:00:46 pm] Formatting completed in 56.437249ms.
+["INFO" - 2:02:50 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:02:50 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:02:50 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:02:50 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:02:50 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:02:50 pm] Formatting completed in 42.328758ms.
+["INFO" - 2:02:55 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:02:55 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:02:55 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:02:55 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:02:55 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:02:55 pm] Formatting completed in 72.425121ms.
+["INFO" - 2:03:50 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:03:50 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:03:50 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:03:50 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:03:50 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2477,
+  "rangeStart": 2387
+}
+["INFO" - 2:03:50 pm] Formatting completed in 38.473346ms.
+["INFO" - 2:04:40 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:04:40 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:04:40 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:04:40 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:04:40 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:04:40 pm] Formatting completed in 36.821583ms.
+["INFO" - 2:05:33 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:05:33 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:05:33 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:05:33 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:05:33 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:05:33 pm] Formatting completed in 86.254109ms.
+["INFO" - 2:05:55 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:05:55 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:05:55 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:05:55 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:05:55 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2482,
+  "rangeStart": 2392
+}
+["INFO" - 2:05:55 pm] Formatting completed in 77.811534ms.
+["INFO" - 2:06:04 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:06:04 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:06:04 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:06:04 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:06:04 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel",
+  "rangeEnd": 2572,
+  "rangeStart": 2513
+}
+["INFO" - 2:06:04 pm] Formatting completed in 63.796575ms.
+["INFO" - 2:06:10 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:06:10 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:06:10 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:06:10 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:06:10 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:06:10 pm] Formatting completed in 91.770054ms.
+["INFO" - 2:06:18 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:06:18 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:06:18 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:06:18 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:06:18 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:06:18 pm] Formatting completed in 56.702946ms.
+["INFO" - 2:06:25 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:06:25 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:06:25 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:06:25 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:06:25 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:06:25 pm] Formatting completed in 84.858272ms.
+["INFO" - 2:08:28 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:08:28 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:08:28 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:08:28 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:08:28 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:08:28 pm] Formatting completed in 40.569972ms.
+["INFO" - 2:08:38 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:08:38 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:08:38 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:08:38 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:08:38 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:08:38 pm] Formatting completed in 51.2581ms.
+["INFO" - 2:11:07 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:11:07 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:11:07 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:11:07 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:11:07 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:11:07 pm] Formatting completed in 63.228134ms.
+["INFO" - 2:11:10 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:11:10 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:11:10 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:11:10 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:11:10 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:11:10 pm] Formatting completed in 63.725526ms.
+["INFO" - 2:12:53 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:12:53 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:12:53 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:12:53 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:12:53 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:12:53 pm] Formatting completed in 122.661667ms.
+["INFO" - 2:13:24 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:13:24 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:13:24 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:13:24 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:13:24 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:13:24 pm] Formatting completed in 90.254201ms.
+["INFO" - 2:13:41 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:13:41 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:13:41 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:13:41 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:13:41 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:13:41 pm] Formatting completed in 57.659322ms.
+["INFO" - 2:13:55 pm] Formatting /home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js
+["INFO" - 2:13:55 pm] Using ignore file (if present) at /home/piyush/webDevProjects/Invoicee/.prettierignore
+["INFO" - 2:13:55 pm] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:13:55 pm] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:13:55 pm] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/piyush/webDevProjects/Invoicee/src/components/Invoicepdf/Invoicepdf.js",
+  "parser": "babel"
+}
+["INFO" - 2:13:55 pm] Formatting completed in 53.353397ms.

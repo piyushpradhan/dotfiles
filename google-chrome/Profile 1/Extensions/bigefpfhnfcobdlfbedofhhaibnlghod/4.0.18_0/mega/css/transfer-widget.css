@@ -1,0 +1,606 @@
+
+.float-widget.transfer-progress *{
+	font-family:var(--text-font-family)
+}
+.float-widget.transfer-progress{
+	height:auto;
+	margin-bottom:8px;
+	position:relative;
+	z-index:110
+}
+.banner.transfer,.transfer-progress-widget{
+	border-radius:16px;
+	box-shadow:var(--dialog-shadow);
+	overflow:hidden;
+	position:relative
+}
+.transfer-progress-widget.collapse{
+	display:inline-block
+}
+.transfer-progress-widget.expand{
+	background:var(--surface-main);
+	padding-bottom:6px;
+	width:536px
+}
+.transfer-progress-txt{
+	color:var(--text-color-high-inverted);
+	display:inline-block;
+	font:var(--text-body1);
+	letter-spacing:.8px;
+	margin-left:6px;
+	padding:2px 0;
+	vertical-align:top
+}
+.transfer-panel-title .transfer-progress-txt{
+	color:var(--text-color-high)
+}
+.transfer-progress-type.error .transfer-progress-txt{
+	color:var(--secondary-red);
+	font-family:var(--text-font-family)
+}
+.transfer-progress-type.error.overquota .transfer-progress-txt{
+	color:var(--secondary-red)
+}
+.transfer-progress-type.error.almost-overquota .transfer-progress-txt{
+	color:var(--secondary-orange)
+}
+.transfer-progress-head{
+	background:var(--surface-main-inverted);
+	border-radius:16px 16px 0 0;
+	position:relative;
+	width:auto
+}
+.transfer-progress-widget.collapse .transfer-progress-head{
+	border-radius:8px
+}
+.transfer-progress-type{
+	display:inline-block;
+	margin:12px 12px 12px 14px
+}
+.transfer-panel-title .transfer-progress-type{
+	margin:0 14px
+}
+.transfer-progress-type:nth-child(2){
+	margin-right:24px
+}
+.status-indicator{
+	border-radius:12px;
+	box-sizing:border-box;
+	display:inline-block;
+	height:24px;
+	position:relative;
+	vertical-align:top;
+	width:auto
+}
+.transfer-progress-type.download .status-indicator{
+	background-color:var(--secondary-green-inverted)
+}
+.transfer-progress-type.complete .status-indicator,.transfer-progress-type.upload .status-indicator{
+	background-color:var(--secondary-blue-inverted)
+}
+.transfer-progress-type.error .status-indicator{
+	background-color:var(--secondary-red-inverted)
+}
+.transfer-progress-type.error.almost-overquota .status-indicator{
+	background-color:var(--secondary-orange-inverted)
+}
+.transfer-progress-type.error.overquota .status-indicator{
+	background-color:var(--secondary-red-inverted)
+}
+.transfer-progress-type.download .transfer-progress-pct:before,.transfer-progress-type.upload .transfer-progress-pct:before{
+	--icon-size:16px;
+	--mask-color:var(--secondary-white);
+	display:block;
+	left:4px;
+	position:absolute;
+	top:4px;
+	z-index:11
+}
+.transfer-progress-type .transfer-progress-icon{
+	display:none
+}
+.transfer-progress-type.complete .transfer-progress-icon,.transfer-progress-type.error .transfer-progress-icon{
+	display:inline-block;
+	vertical-align:top
+}
+.transfer-progress-pct{
+	color:var(--text-color-white-high);
+	display:inline-block;
+	font:var(--text-body1);
+	height:auto;
+	line-height:16px;
+	padding:4px 8px 4px 20px;
+	position:relative;
+	width:auto
+}
+.transfer-control-panel{
+	cursor:pointer;
+	display:inline-block;
+	height:100%;
+	min-width:44px;
+	position:absolute;
+	right:0;
+	top:0
+}
+.transfer-progress-widget.collapse .transfer-control-panel{
+	position:relative;
+	vertical-align:top
+}
+.transfer-control-panel .transfer-progress-icon i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest-inverted)
+}
+.transfer-control-panel .transfer-progress-icon{
+	display:inline-block;
+	margin:12px 0 12px 12px;
+	opacity:.7;
+	transition:.2s
+}
+.transfer-progress-widget.collapse .transfer-progress-icon.collapse,.transfer-progress-widget.expand .transfer-progress-icon.expand{
+	display:none
+}
+.transfer-control-panel .transfer-progress-icon:nth-child(3){
+	margin-right:16px
+}
+.transfer-control-panel .transfer-progress-icon:hover{
+	opacity:1
+}
+.transfer-progress-widget.collapse .transfer-progress-widget-body{
+	display:none
+}
+.transfer-progress-widget-body{
+	background:var(--surface-main);
+	border-radius:0 0 16px 16px;
+	overflow:hidden;
+	padding-bottom:8px;
+	position:relative;
+	z-index:40
+}
+.transfer-progress.tpw .widget-body-container{
+	max-height:246px
+}
+.transfer-task-row{
+	align-items:center;
+	box-sizing:border-box;
+	display:flex;
+	height:48px;
+	padding:12px 16px 12px 44px;
+	position:relative;
+	width:100%
+}
+.transfer-task-row:hover:after{
+	background-color:var(--surface-grey-3);
+	border:1px solid var(--surface-grey-2);
+	border-radius:4px;
+	content:"";
+	height:40px;
+	left:16px;
+	position:absolute;
+	top:4px;
+	width:504px;
+	z-index:-1
+}
+.transfer-task-row:before{
+	content:"";
+	display:block;
+	height:16px;
+	left:24px;
+	position:absolute;
+	top:16px;
+	width:16px
+}
+.transfer-task-row .transfer-filetype-txt{
+	color:var(--text-color-high);
+	display:inline-block;
+	font:var(--text-body1);
+	line-height:24px;
+	margin-left:24px;
+	margin-top:2px;
+	max-width:280px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.transfer-task-row.complete .transfer-filetype-txt{
+	max-width:260px
+}
+.transfer-task-row .transfer-file-size{
+	color:var(--text-color-low);
+	display:inline-block;
+	font:var(--text-body2);
+	line-height:24px;
+	margin:0 8px;
+	padding-left:12px;
+	padding-top:2px;
+	position:relative;
+	vertical-align:top;
+	white-space:nowrap
+}
+.transfer-task-row .transfer-file-size:before{
+	background-color:var(--surface-grey-2);
+	content:"";
+	display:block;
+	height:16px;
+	left:0;
+	position:absolute;
+	top:4px;
+	width:1px
+}
+.transfer-task-status{
+	cursor:pointer;
+	flex-shrink:0;
+	font:var(--text-body1);
+	line-height:24px;
+	margin-left:auto;
+	min-height:24px;
+	min-width:28px;
+	overflow:hidden;
+	position:relative;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.transfer-task-row.paused .transfer-task-status i{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest);
+	display:inline-block;
+	margin-right:8px;
+	vertical-align:middle
+}
+.transfer-task-status span{
+	box-sizing:border-box;
+	display:inline-block;
+	height:24px;
+	padding-top:1px;
+	vertical-align:middle
+}
+.transfer-task-actions{
+	display:none;
+	z-index:25
+}
+.transfer-task-row:hover .transfer-task-actions{
+	display:inline-block;
+	position:absolute;
+	right:24px;
+	top:9px
+}
+.transfer-task-row:hover .transfer-task-status{
+	display:none
+}
+.transfer-task-actions button{
+	cursor:pointer;
+	display:inline-block;
+	margin-left:12px;
+	outline:none;
+	position:relative
+}
+.transfer-task-actions i{
+	opacity:.8
+}
+.transfer-task-actions i:hover{
+	opacity:1
+}
+.transfer-progress-bar,.transfer-progress-bar-pct{
+	background:var(--surface-progress-background);
+	border-radius:1.5px;
+	bottom:0;
+	display:block;
+	height:4px;
+	left:24px;
+	position:absolute;
+	width:488px;
+	z-index:8
+}
+.transfer-task-row.upload .transfer-progress-bar-pct{
+	background:var(--secondary-blue);
+	left:0;
+	width:200px;
+	z-index:9
+}
+.transfer-task-row.download .transfer-progress-bar-pct{
+	background:var(--secondary-green);
+	left:0;
+	width:200px;
+	z-index:9
+}
+.transfer-task-row.complete .transfer-task-status{
+	color:var(--stroke-success);
+	padding-top:2px
+}
+.transfer-complete-actions{
+	display:none;
+	position:absolute;
+	right:64px;
+	z-index:25
+}
+.transfer-complete-actions:before{
+	background-color:var(--surface-mid-grey);
+	content:"";
+	display:block;
+	height:12px;
+	position:absolute;
+	right:-8px;
+	top:6px;
+	width:2px
+}
+.transfer-task-row:hover .transfer-complete-actions{
+	display:inline-block
+}
+.transfer-complete-actions button{
+	cursor:pointer;
+	display:inline-block;
+	margin:0 6px;
+	outline:none;
+	position:relative
+}
+.transfer-complete-actions i{
+	opacity:.8
+}
+.transfer-complete-actions i:hover{
+	opacity:1
+}
+.transfer-task-row.complete .transfer-progress-bar{
+	display:none
+}
+.transfer-task-row.download.error .transfer-progress-bar-pct,.transfer-task-row.upload.error .transfer-progress-bar-pct{
+	background-color:var(--secondary-red);
+	left:0;
+	width:200px;
+	z-index:9
+}
+.transfer-task-row.error .transfer-task-status{
+	color:var(--secondary-red)
+}
+.transfer-task-row.inqueue .transfer-task-status:before{
+	background-image:url(../images/mega/dual-spinner-small.svg?v=2a9603152bbc7da4);
+	background-repeat:no-repeat;
+	content:"";
+	display:block;
+	height:18px;
+	opacity:.6;
+	position:absolute;
+	right:10px;
+	top:3px;
+	width:18px
+}
+.transfer-task-row.paused .transfer-task-status:before{
+	background-position:-2px -37px;
+	display:block
+}
+.transfer-progress-icon.close{
+	background-position:-9px -1764px
+}
+.transfer-progress-icon.expand{
+	background-position:-39px -1766px
+}
+.transfer-progress-icon.collapse{
+	background-position:-72px -1766px
+}
+.transfer-progress-icon.wait{
+	background-position:-195px -342px
+}
+.transfer-progress-icon.complete{
+	background-position:-160px -1697px;
+	display:block
+}
+.btn-icon.transfer-progress-btn:hover:after{
+	background:var(--button-hover);
+	border-radius:4px;
+	content:"";
+	height:24px;
+	left:0;
+	position:absolute;
+	right:0;
+	width:24px;
+	z-index:-1
+}
+button.btn-icon .transfer-progress-icon{
+	--icon-size:24px;
+	--mask-color:var(--icon-rest);
+	display:inline-block
+}
+.transfer-progress-type.upload .status-indicator:before{
+	background-position:-8px -1804px
+}
+.transfer-task-row.download:before{
+	--mask-color:var(--secondary-green)
+}
+.transfer-task-row.upload:before{
+	--mask-color:var(--secondary-blue)
+}
+.transfer-task-row.complete .transfer-task-status:before{
+	background-position:-160px -1696px;
+	display:block
+}
+.transfer-task-row.error .transfer-task-status:before{
+	background-position:-159px -1804px;
+	display:block
+}
+.transfer-section-button{
+	background-color:var(--surface-grey-2);
+	color:var(--text-color-high);
+	cursor:pointer;
+	display:block;
+	font:var(--text-body2);
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	width:100%
+}
+.transfer-section-button.complete-list{
+	border-radius:0 0 16px 16px;
+	margin-bottom:-6px
+}
+.transfer-progress-widget.collapse .transfer-section-button{
+	display:none
+}
+.float-widget.transfer-progress .banner{
+	background-color:var(--surface-main);
+	box-sizing:border-box;
+	margin-bottom:4px;
+	max-width:536px;
+	min-width:148px;
+	overflow:hidden;
+	padding:24px;
+	width:100%
+}
+.float-widget.transfer-progress .banner .close-over{
+	cursor:pointer;
+	height:24px;
+	opacity:.4;
+	position:absolute;
+	right:12px;
+	top:12px;
+	transition:.2s;
+	width:24px;
+	z-index:19
+}
+.float-widget.transfer-progress .banner .close-over:hover{
+	opacity:.8
+}
+.float-widget.transfer-progress .banner .close-over .sprite-fm-mono{
+	--mask-color:var(--icon-rest);
+	--icon-size:24px;
+	height:24px;
+	width:24px
+}
+.left-section.circle-dashboard{
+	background:var(--surface-progress-background);
+	border-radius:100%;
+	box-sizing:border-box;
+	display:inline-block;
+	height:64px;
+	margin:12px 40px 0 16px;
+	position:relative;
+	text-align:center;
+	vertical-align:top;
+	width:64px
+}
+.quota-info-pct-txt{
+	font:var(--text-h3-bold);
+	margin-top:20px;
+	position:relative;
+	z-index:11
+}
+.float-widget.transfer-progress .banner.almost-overquota .quota-info-pct-txt,.float-widget.transfer-progress .banner.almost-overquota .quota-info-pr-txt .quota-info-pr-txt-used{
+	color:var(--secondary-orange)
+}
+.float-widget.transfer-progress .banner.overquota .quota-info-pct-txt,.float-widget.transfer-progress .banner.overquota .quota-info-pr-txt .quota-info-pr-txt-used{
+	color:var(--secondary-red)
+}
+.quota-info-pr-txt{
+	color:var(--text-color-high);
+	font:var(--text-body2);
+	margin:-24px -16px 0;
+	position:relative
+}
+.quota-info-pr-txt .quota-info-pr-txt-used{
+	font:var(--text-body1)
+}
+.quota-info-pr-txt.small-font{
+	font:var(--text-caption)
+}
+.quota-info-pr-txt.small-font .quota-info-pr-txt-used{
+	font:var(--text-body2)
+}
+.right-section.upgrade-block{
+	display:inline-block;
+	width:calc(100% - 136px)
+}
+.right-section.upgrade-block .head-title{
+	cursor:default;
+	font-family:LatoWebBold,source_sans_prosemibold,Arial,sans-serif;
+	left:0;
+	padding:0;
+	top:0
+}
+.right-section.upgrade-block .head-title:hover{
+	background-color:initial
+}
+.right-section.upgrade-block .head-title:before{
+	display:none
+}
+.right-section.upgrade-block .content-txt{
+	padding-top:12px
+}
+.right-section.upgrade-block button{
+	display:inline-block;
+	margin-top:20px;
+	z-index:14
+}
+.quota-info-pct-circle li,.quota-info-pct-circle p,.quota-info-pct-circle span,.quota-info-pct-circle ul{
+	height:64px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:64px
+}
+.quota-info-pct-circle .overlay{
+	background-color:var(--surface-main);
+	border-radius:100%;
+	display:block;
+	height:54px;
+	left:5px;
+	position:absolute;
+	top:5px;
+	width:54px;
+	z-index:10
+}
+.affiliate .quota-info-pct-circle li,.blog-new-full .quota-info-pct-circle ul li,.pro .quota-info-pct-circle li:not(.no-red-dot),.quota-info-pct-circle ul li,.sync .quota-info-pct-circle li{
+	background:none;
+	left:0;
+	padding:0;
+	position:absolute;
+	top:0
+}
+.quota-info-pct-circle ul .right-c{
+	clip:rect(0, 64px, 64px, 32px)
+}
+.quota-info-pct-circle ul .left-c{
+	clip:rect(0, 32px, 64px, 0)
+}
+.quota-info-pct-circle ul .left-c p{
+	transform:rotate(-180deg)
+}
+.quota-info-pct-circle ul .right-c p{
+	transform:rotate(-30deg)
+}
+.quota-info-pct-circle ul li span{
+	display:block;
+	height:64px;
+	width:32px
+}
+.quota-info-pct-circle ul li.right-c span{
+	border-bottom-left-radius:32px;
+	border-top-left-radius:32px
+}
+.quota-info-pct-circle ul li.left-c span{
+	border-bottom-right-radius:32px;
+	border-top-right-radius:32px;
+	margin-left:32px
+}
+.float-widget.transfer-progress .banner.almost-overquota .quota-info-pct-circle ul span{
+	background-color:var(--secondary-orange)
+}
+.float-widget.transfer-progress .banner.overquota .quota-info-pct-circle ul span{
+	background-color:var(--secondary-red)
+}
+.float-widget.transfer-progress .transfer-task-row hr{
+	display:none
+}
+.float-widget.transfer-progress .transfer-task-row.complete hr{
+	background:var(--surface-grey-2);
+	border:none;
+	bottom:-8px;
+	display:block;
+	height:1px;
+	position:absolute;
+	right:24px;
+	width:488px
+}
+.float-widget.transfer-progress .btn-icon{
+	background:none;
+	border:none;
+	cursor:pointer;
+	outline:none;
+	padding:0
+}

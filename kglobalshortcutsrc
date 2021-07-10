@@ -1,0 +1,5 @@
+[kmix]
+_k_friendly_name=KMix
+decrease_volume=Volume Down,Volume Down,Decrease Volume
+increase_volume=Volume Up,Volume Up,Increase Volume
+mute=Volume Mute,Volume Mute,Mute

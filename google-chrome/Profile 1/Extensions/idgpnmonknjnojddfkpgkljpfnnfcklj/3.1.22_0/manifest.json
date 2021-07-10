@@ -1,0 +1,35 @@
+{
+   "background": {
+      "scripts": [ "background.bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "ModHeader"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "{ed630365-1261-4ba9-a676-99963d2b4f54}",
+         "strict_min_version": "68.0"
+      }
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Modify HTTP request and response headers",
+   "externally_connectable": {
+      "matches": [ "*://bewisse.com/*", "*://modheader.com/*" ]
+   },
+   "homepage_url": "https://bewisse.com/modheader/",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRbg/YGjnooTbGDnwXqcwWaFwY1SFby0PQa2WlT8Dvq1OFqLQBJcikRQUA9GnEKZNKInUocQdlvxwvbMccBIZTYXuP+RMEi+yWqsH/x+D1w87fWnVtspKVqCia4a6DTsqxOW+JJFb1ufWZuvSeDVdToRUm/zG5WxXWyg7nQirY5QIDAQAB",
+   "manifest_version": 2,
+   "name": "ModHeader",
+   "optional_permissions": [ "activeTab" ],
+   "permissions": [ "contextMenus", "storage", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.22"
+}

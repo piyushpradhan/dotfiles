@@ -1,0 +1,34 @@
+{
+   "description": "",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPuWuSCB/O0SF/3eVn7g2/elDoencMtNnjf3lCKfVYxbD5XCooXlgdqvDQztJz90kbQ7nBMmxj//CcHiKGu90gMff+Tb5ydpzMiGnJ6V2Xkl/tC2OkzpjpDH+3OossLH46r92N3yByTp3XboLRV+SIXIxzimb8NG5a68eCnaN4nQIDAQAB",
+   "manifest_version": 2,
+   "name": "Dark Theme v3",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 209, 209, 209 ],
+         "button_background": [ 48, 48, 48, 1 ],
+         "frame": [ 66, 116, 201 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 209, 209, 209 ],
+         "tab_background_text": [ 209, 209, 209 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 54, 54, 54 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_frame_overlay": "images/theme_frame_overlay.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "left top",
+         "ntp_background_repeat": "repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0, 0.86 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3"
+}

@@ -1,0 +1,16 @@
+[INFO] [auth] [2021-07-02T12:17:22.408Z] Invalid copilot token: missing token
+[INFO] [default] [2021-07-02T12:20:58.833Z] [fetchCompletions] engine https://copilot.githubassets.com/v1/engines/github-multi-stochbpe-cushman-pii
+[INFO] [default] [2021-07-02T12:20:58.941Z] [fetchCompletions] engine https://copilot.githubassets.com/v1/engines/github-multi-stochbpe-cushman-pii
+[INFO] [auth] [2021-07-02T12:20:59.463Z] Invalid copilot token: missing token
+[ERROR] [ghostText] [2021-07-02T12:20:59.464Z] Error on ghost text request Error: User not authorized
+[INFO] [auth] [2021-07-02T12:20:59.868Z] Invalid copilot token: missing token
+[ERROR] [ghostText] [2021-07-02T12:20:59.870Z] Error on ghost text request Error: User not authorized
+[INFO] [default] [2021-07-02T12:21:29.729Z] [fetchCompletions] engine https://copilot.githubassets.com/v1/engines/github-multi-stochbpe-cushman-pii
+[INFO] [auth] [2021-07-02T12:21:30.181Z] Invalid copilot token: missing token
+[ERROR] [ghostText] [2021-07-02T12:21:30.182Z] Error on ghost text request Error: User not authorized
+[INFO] [default] [2021-07-02T12:22:44.189Z] [fetchCompletions] engine https://copilot.githubassets.com/v1/engines/github-multi-stochbpe-cushman-pii
+[INFO] [auth] [2021-07-02T12:22:44.526Z] Invalid copilot token: missing token
+[ERROR] [ghostText] [2021-07-02T12:22:44.528Z] Error on ghost text request Error: User not authorized
+[INFO] [default] [2021-07-02T12:22:44.912Z] [fetchCompletions] engine https://copilot.githubassets.com/v1/engines/github-multi-stochbpe-cushman-pii
+[INFO] [auth] [2021-07-02T12:22:45.345Z] Invalid copilot token: missing token
+[ERROR] [ghostText] [2021-07-02T12:22:45.347Z] Error on ghost text request Error: User not authorized
