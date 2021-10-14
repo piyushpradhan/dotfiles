@@ -1,9 +1,0 @@
-{
-  "coc-eslint|global": {
-    "eslintLibraries": {
-      "libs": {
-        "/home/piyush/webDevProjects/Invoicee/node_modules/eslint/lib/api.js": true
-      }
-    }
-  }
-}

@@ -1,6 +1,0 @@
-2021/06/30-23:14:35.425 c65c Creating DB /home/piyush/.config/google-chrome/Default/IndexedDB/https_www.tomsguide.com_0.indexeddb.leveldb since it was missing.
-2021/06/30-23:14:35.892 c65c Reusing MANIFEST /home/piyush/.config/google-chrome/Default/IndexedDB/https_www.tomsguide.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/06/30-23:16:32.728 c2bc Level-0 table #5: started
-2021/06/30-23:16:32.904 c2bc Level-0 table #5: 5721 bytes OK
-2021/06/30-23:16:33.012 c2bc Delete type=0 #3
-2021/06/30-23:16:33.012 c2bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

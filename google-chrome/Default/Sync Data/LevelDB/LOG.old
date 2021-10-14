@@ -1,6 +1,0 @@
-2021/07/06-23:12:05.390 13ea5 Reusing MANIFEST /home/piyush/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/07/06-23:12:05.408 13ea5 Recovering log #110
-2021/07/06-23:12:05.545 13ea5 Reusing old log /home/piyush/.config/google-chrome/Default/Sync Data/LevelDB/000110.log 
-2021/07/06-23:14:04.908 13e7f Level-0 table #115: started
-2021/07/06-23:14:05.736 13e7f Level-0 table #115: 118627 bytes OK
-2021/07/06-23:14:05.909 13e7f Delete type=0 #110

@@ -1,9 +1,0 @@
-2021/07/03-15:02:27.392 3414 Reusing MANIFEST /home/piyush/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/03-15:02:27.392 3414 Recovering log #7
-2021/07/03-15:02:27.393 3414 Reusing old log /home/piyush/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
-2021/07/03-15:02:48.711 36ad Compacting 1@1 + 1@2 files
-2021/07/03-15:02:49.525 36ad Generated table #10@1: 169 keys, 220512 bytes
-2021/07/03-15:02:49.525 36ad Compacted 1@1 + 1@2 files => 220512 bytes
-2021/07/03-15:02:50.641 36ad compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/07/03-15:02:50.642 36ad Delete type=2 #8
-2021/07/03-15:02:50.642 36ad Delete type=2 #5
