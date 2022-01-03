@@ -1,0 +1,45 @@
+sw_volume: 84
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+current: 13
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 1
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Confetti___Dear_God.mp3
+1:Phoenix.mp3
+2:Sweet_but_Psycho.mp3
+3:I_Am_King___Impossible__Shontelle_Cover_.mp3
+4:Kill_Yourself_w__Lyrics___Bo_Burnham___Make_Happy.mp3
+5:Ed_Sheeran___Bad_Habits__Official_Video_.mp3
+6:Imagine_Dragons___Zero__From_the_Original_Motion_Picture__Ralph_Breaks_The_Internet__.mp3
+7:Stupid_Deep.mp3
+8:Next_to_you__from_Parasyte_.mp3
+9:Monsters__feat__blackbear_.mp3
+10:Hate_How_Much_I_Love_You.mp3
+11:Vance_Joy____Riptide__Official_Video.mp3
+12:20_Years_of_Hits_in_5_Minutes___GREATEST_HITS_MASHUP___Nikita_Afonso__Stephen_Scaccia__Randy_C.mp3
+13:Lil_Nas_X___Old_Town_Road_ft__Billy_Ray_Cyrus__SING_OFF_vs__JoJo_.mp3
+14:Heat_Waves.mp3
+15:Serotonin.mp3
+16:Cross_Site_Scripting__XSS__Explained.mp3
+17:Eminem___Venom.mp3
+18:Heavy__feat__Kiiara_.mp3
+19:Hayd___Superhero.mp3
+20:Gocko___End_of_Summer.mp3
+21:Just_Give_Me_a_Reason.mp3
+22:Confetti___Dear_God.mp3
+23:No_Friends.mp3
+24:Love_The_Way_You_Lie.mp3
+25:Egzod___Maestro_Chives___Royalty__ft__Neoni___Official_Lyric_Video_.mp3
+26:Dynasty.mp3
+27:Saturday_Nights.mp3
+28:AJR___Sober_Up__feat__Rivers_Cuomo___Official_Video_.mp3
+29:All_of_Me.mp3
+30:Demons.mp3
+playlist_end

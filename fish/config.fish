@@ -13,6 +13,8 @@
 #   ...
 # end
 
+node ~/projects/personal/cli/aniquotes/quote-generator.js
+
 alias ls "exa -l -g --icons"
 alias lla "ll -a"
 
@@ -21,6 +23,9 @@ alias tree "exa -T --icons"
 alias idb "wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Immunity\ Inc/Immunity\ Debugger/ImmunityDebugger.exe"
 
 alias yt "ytfzf -t --preview-side=right"
+alias r "ranger"
+
+alias icat "kitty +kitten icat"
 
 # PATH
 export TODO_DIR="$HOME/.todo"

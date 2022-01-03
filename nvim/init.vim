@@ -142,7 +142,7 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
   " runtime ./colors/NeoSolarized.vim
-  colorscheme wal
+  colorscheme NeoSolarized
 endif
 
 "}}}
@@ -153,3 +153,12 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
+"
+source ~/.config/nvim/after/plugin/coc.rc.vim
+
+" Copilot settings
+
+let g:copilot_filetypes = {
+      \ '*': v:false, 
+      \ 'python': v:true, 
+      \ }

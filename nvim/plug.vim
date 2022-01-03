@@ -12,17 +12,17 @@ if has("nvim")
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'neovim/nvim-lspconfig'
-  Plug 'glepnir/lspsaga.nvim'
-  Plug 'folke/lsp-colors.nvim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'prettier/vim-prettier'
   Plug 'nvim-lua/completion-nvim'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
- Plug 'dylanaraps/wal' 
- Plug 'windwp/nvim-autopairs'
+  Plug 'dylanaraps/wal' 
+  Plug 'windwp/nvim-autopairs'
+  Plug 'KadoBOT/nvim-spotify', { 'do': 'make' }
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

@@ -29,11 +29,11 @@ autocmd FileType defx call s:defx_my_settings()
 	  \ defx#do_action('open', 'pedit')
 	  nnoremap <silent><buffer><expr> o
 	  \ defx#do_action('open_or_close_tree')
-	  nnoremap <silent><buffer><expr> K
+	  nnoremap <silent><buffer><expr> D
 	  \ defx#do_action('new_directory')
 	  nnoremap <silent><buffer><expr> N
 	  \ defx#do_action('new_file')
-	  nnoremap <silent><buffer><expr> M
+	  nnoremap <silent><buffer><expr> Mn
 	  \ defx#do_action('new_multiple_files')
 	  nnoremap <silent><buffer><expr> C
 	  \ defx#do_action('toggle_columns',

@@ -1,0 +1,85 @@
+Jan 02 18:39 : exception: Failed to access /home/piyush/music: No such file or directory
+Jan 02 18:39 : exception: Failed to open '/home/piyush/.mpd/mpdstate': No such file or directory
+Jan 02 18:39 : config: option 'device' on line 233 was not recognized
+Jan 02 18:40 : exception: Failed to open '/home/piyush/.mpd/mpdstate': No such file or directory
+Jan 02 18:40 : config: option 'device' on line 233 was not recognized
+Jan 02 18:43 : exception: Failed to commit /home/piyush/.mpd/mpdstate: File exists
+Jan 02 18:43 : config: option 'device' on line 233 was not recognized
+Jan 02 18:43 : config: option 'device' on line 233 was not recognized
+Jan 02 18:50 : config: option 'device' on line 233 was not recognized
+Jan 02 18:50 : update: added /Heavy__feat__Kiiara_.mp3
+Jan 02 18:50 : update: added /Katawaredoki.mp3
+Jan 02 18:50 : update: added /Superficial_Love.mp3
+Jan 02 18:50 : update: added /Imagine_Dragons___Zero__From_the_Original_Motion_Picture__Ralph_Breaks_The_Internet__.mp3
+Jan 02 18:50 : update: added /Waqt_Ki_Baatein.mp3
+Jan 02 18:50 : update: added /overwhelmed__Chri_tian_Gate__Remix_.mp3
+Jan 02 18:50 : update: added /Saturday_Nights.mp3
+Jan 02 18:50 : update: added /Aaftaab.mp3
+Jan 02 18:50 : update: added /Kill_Yourself_w__Lyrics___Bo_Burnham___Make_Happy.mp3
+Jan 02 18:50 : update: added /Centuries.mp3
+Jan 02 18:50 : update: added /I_Am_King___Impossible__Shontelle_Cover_.mp3
+Jan 02 18:50 : update: added /Serotonin.mp3
+Jan 02 18:50 : update: added /About_Love__From_The_Netflix_Film__To_All_The_Boys__P_S__I_Still_Love_You__.mp3
+Jan 02 18:50 : update: added /WIN___The_God_of_HighSchool__ED_.mp3
+Jan 02 18:50 : update: added /Alag_Aasmaan.mp3
+Jan 02 18:50 : update: added /Hayd___Superhero.mp3
+Jan 02 18:50 : update: added /Next_to_you__from_Parasyte_.mp3
+Jan 02 18:50 : update: added /Stupid_Deep.mp3
+Jan 02 18:50 : update: added /Let_You_Go.mp3
+Jan 02 18:50 : update: added /Hate_How_Much_I_Love_You.mp3
+Jan 02 18:50 : update: added /Dynasty.mp3
+Jan 02 18:50 : update: added /Mayonaka_No_Door___Stay_With_Me.mp3
+Jan 02 18:50 : update: added /All_of_Me.mp3
+Jan 02 18:50 : update: added /Suicide_Year__Lo_fi_Remix_.mp3
+Jan 02 18:50 : update: added /Heat_Waves.mp3
+Jan 02 18:50 : update: added /Vance_Joy____Riptide__Official_Video.mp3
+Jan 02 18:50 : update: added /No_Friends.mp3
+Jan 02 18:50 : update: added /NF___When_I_Grow_Up.mp3
+Jan 02 18:50 : update: added /Love_The_Way_You_Lie.mp3
+Jan 02 18:50 : update: added /I_want_to_eat_your_pancreas_________Hold_on.mp3
+Jan 02 18:50 : update: added /Lil_Nas_X___Old_Town_Road_ft__Billy_Ray_Cyrus__SING_OFF_vs__JoJo_.mp3
+Jan 02 18:50 : update: added /Phoenix.mp3
+Jan 02 18:50 : update: added /Sweet_but_Psycho.mp3
+Jan 02 18:50 : update: added /Confetti___Dear_God.mp3
+Jan 02 18:50 : update: added /Gocko___End_of_Summer.mp3
+Jan 02 18:50 : update: added /Monsters__feat__blackbear_.mp3
+Jan 02 18:50 : update: added /Eminem___Venom.mp3
+Jan 02 18:50 : update: added /The_Outside.mp3
+Jan 02 18:50 : update: added /Egzod___Maestro_Chives___Royalty__ft__Neoni___Official_Lyric_Video_.mp3
+Jan 02 18:50 : update: added /Just_Give_Me_a_Reason.mp3
+Jan 02 18:50 : update: added /La_La_La.mp3
+Jan 02 18:50 : update: added /If_You_Could_See_Me_Now.mp3
+Jan 02 18:50 : update: added /Wrecking_Ball.mp3
+Jan 02 18:50 : update: added /Cross_Site_Scripting__XSS__Explained.mp3
+Jan 02 18:50 : update: added /Hate_Myself.mp3
+Jan 02 18:50 : update: added /Halfway_Right.mp3
+Jan 02 18:50 : update: added /Fireflies.mp3
+Jan 02 18:50 : update: added /AJR___Sober_Up__feat__Rivers_Cuomo___Official_Video_.mp3
+Jan 02 18:50 : update: added /Demons.mp3
+Jan 02 18:50 : update: added /Skylar_Grey___Last_One_Standing_ft__Polo_G__Mozzy____Eminem__Official_Audio_.mp3
+Jan 02 18:50 : update: added /Ed_Sheeran___Bad_Habits__Official_Video_.mp3
+Jan 02 18:50 : update: added /20_Years_of_Hits_in_5_Minutes___GREATEST_HITS_MASHUP___Nikita_Afonso__Stephen_Scaccia__Randy_C.mp3
+Jan 02 18:53 : player: played "20_Years_of_Hits_in_5_Minutes___GREATEST_HITS_MASHUP___Nikita_Afonso__Stephen_Scaccia__Randy_C.mp3"
+Jan 02 19:01 : player: played "AJR___Sober_Up__feat__Rivers_Cuomo___Official_Video_.mp3"
+Jan 02 19:02 : exception: Not playing
+Jan 02 19:03 : player: played "About_Love__From_The_Netflix_Film__To_All_The_Boys__P_S__I_Still_Love_You__.mp3"
+Jan 02 19:03 : exception: Not playing
+Jan 02 19:07 : player: played "AJR___Sober_Up__feat__Rivers_Cuomo___Official_Video_.mp3"
+Jan 02 23:14 : player: played "Confetti___Dear_God.mp3"
+Jan 02 23:19 : player: played "Confetti___Dear_God.mp3"
+Jan 02 23:22 : player: played "Phoenix.mp3"
+Jan 02 23:25 : player: played "Sweet_but_Psycho.mp3"
+Jan 02 23:29 : player: played "I_Am_King___Impossible__Shontelle_Cover_.mp3"
+Jan 02 23:32 : player: played "Kill_Yourself_w__Lyrics___Bo_Burnham___Make_Happy.mp3"
+Jan 02 23:36 : player: played "Ed_Sheeran___Bad_Habits__Official_Video_.mp3"
+Jan 02 23:40 : player: played "Imagine_Dragons___Zero__From_the_Original_Motion_Picture__Ralph_Breaks_The_Internet__.mp3"
+Jan 02 23:43 : player: played "Stupid_Deep.mp3"
+Jan 02 23:46 : player: played "Next_to_you__from_Parasyte_.mp3"
+Jan 02 23:47 : player: played "Monsters__feat__blackbear_.mp3"
+Jan 02 23:47 : exception: Failed to commit /home/piyush/.mpd/mpdstate: File exists
+Jan 03 09:17 : config: option 'device' on line 233 was not recognized
+Jan 03 09:20 : player: played "Monsters__feat__blackbear_.mp3"
+Jan 03 09:23 : player: played "Hate_How_Much_I_Love_You.mp3"
+Jan 03 09:27 : player: played "Vance_Joy____Riptide__Official_Video.mp3"
+Jan 03 09:32 : player: played "20_Years_of_Hits_in_5_Minutes___GREATEST_HITS_MASHUP___Nikita_Afonso__Stephen_Scaccia__Randy_C.mp3"
+Jan 03 09:36 : player: played "Lil_Nas_X___Old_Town_Road_ft__Billy_Ray_Cyrus__SING_OFF_vs__JoJo_.mp3"
