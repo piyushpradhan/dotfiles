@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# install playerctl
+
+none="No players found"
+down=$(playerctl status 2>&1)
+if [ "$down" = "$none" -o "$down" = "Stopped" ]; then
+				echo ""
+				exit
+else
+				tracklength=$(playerctl metadata mpris:length 2>&1| sed 's/.\{6\}$//')
+				current=$(playerctl position 2>&1 | sed 's/.\{7\}$//')
+				if [ "$tracklength" -ge 3600 ]; then
+								duration=$(date -d@"$tracklength" -u +%H:%M:%S 2>&1)
+				else
+								duration=$(date -d@"$tracklength" -u +%M:%S 2>&1)
+				fi
+				if [ "$current" -ge 3600 ]; then
+								position=$(date -d@"$current" -u +%H:%M:%S 2>&1)
+				else
+								position=$(date -d@"$current" -u +%M:%S 2>&1)
+				fi
+				artist=$(playerctl metadata xesam:artist 2>&1)
+				song=$(playerctl metadata xesam:title 2>&1)
+				if [ "$down" = "Playing" ]; then
+							echo "$song | $position"
+			  elif [ "$down" = "Paused" ]; then
+							echo "$song | $position | $duration | paused"
+			  else
+							exit
+				fi
+fi
+

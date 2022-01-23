@@ -1,0 +1,17 @@
+#!/bin/bash
+
+duration=$(cmus-remote -Q 2> /dev/null | grep duration | cut -d ' ' -f2-)
+position=$(cmus-remote -Q 2> /dev/null | grep position | cut -d ' ' -f2-)
+stat=$(cmus-remote -Q 2> /dev/null | grep status | cut -d ' ' -f2-)
+artist=$(cmus-remote -Q 2> /dev/null | grep ' artist ' | cut -d ' ' -f3-)
+song=$(cmus-remote -Q 2> /dev/null | grep title | cut -d ' ' -f3-)
+if [ "$stat" != "" -a "$artist" != "" ]; then
+				cur=$(date -d@"$position" -u +%M:%S)
+			  dur=$(date -d@"$duration" -u +%M:%S)
+				if [ "$stat" = "playing" ]; then
+							echo "$artist - $song || $cur"
+				else
+							echo "$song - $cur - paused"
+				fi
+fi
+
