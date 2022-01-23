@@ -226,22 +226,25 @@ bindsym Mod4+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status -c ~/.config/i3status.conf
-	      position top
-        colors {
-          background #20242c
-          background #00000000
-          statusline #4c7899
-          separator #4c7899
-
-          focused_workspace  #00000000 #4c7899   #ffffff
-                active_workspace   #00000000 #00000000 #ffffff
-                inactive_workspace #00000000 #00000000 #888888
-                urgent_workspace   #00000000 #00000000 #900000
-                binding_mode       #00000000 #00000000 #900000
-        }
-}
+# bar {
+#         status_command i3status -c ~/.config/i3status.conf
+# 	      position top
+#         colors {
+#           background #20242c
+#           background #00000000
+#           statusline #4c7899
+#           separator #4c7899
+# 
+#           focused_workspace  #00000000 #4c7899   #ffffff
+#                 active_workspace   #00000000 #00000000 #ffffff
+#                 inactive_workspace #00000000 #00000000 #888888
+#                 urgent_workspace   #00000000 #00000000 #900000
+#                 binding_mode       #00000000 #00000000 #900000
+#         }
+# }
+#
+# Adding polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch-polybar.sh
 
 # adding gaps 
 gaps inner 10
