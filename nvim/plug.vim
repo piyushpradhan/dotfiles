@@ -14,15 +14,14 @@ if has("nvim")
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'prettier/vim-prettier'
-  Plug 'nvim-lua/completion-nvim'
+  " Plug 'nvim-lua/completion-nvim'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'dylanaraps/wal' 
-  Plug 'windwp/nvim-autopairs'
-  Plug 'KadoBOT/nvim-spotify', { 'do': 'make' }
+  " Plug 'windwp/nvim-autopairs'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

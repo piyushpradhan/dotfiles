@@ -29,6 +29,8 @@ set noswf
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
 
+set guifont=Source\ Code\ Pro:h8
+
 let mapleader=" "
 
 " incremental substitution (neovim)
@@ -161,4 +163,8 @@ source ~/.config/nvim/after/plugin/coc.rc.vim
 let g:copilot_filetypes = {
       \ '*': v:false, 
       \ 'python': v:true, 
+      \ 'javascript': v:true, 
+      \ 'typescript': v:true, 
+      \ 'cpp': v:true, 
+      \ 'c': v:true, 
       \ }

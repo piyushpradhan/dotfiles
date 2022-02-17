@@ -13,7 +13,11 @@
 #   ...
 # end
 
-node ~/projects/personal/cli/aniquotes/quote-generator.js
+function fish_greeting
+  node ~/projects/personal/cli/aniquotes/quote-generator.js
+end
+
+funcsave fish_greeting
 
 alias ls "exa -l -g --icons"
 alias lla "ll -a"
@@ -26,6 +30,9 @@ alias yt "ytfzf -t --preview-side=right"
 alias r "ranger"
 
 alias icat "kitty +kitten icat"
+
+# Apply theme using pywal 
+alias applyTheme "$HOME/.config/polybar/scripts/apply_theme.sh"
 
 # PATH
 export TODO_DIR="$HOME/.todo"

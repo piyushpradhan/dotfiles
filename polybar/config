@@ -1,20 +1,20 @@
 [colors]
-color0 = #060816
-color1 = #219FFF
-color2 = #5CB7FE
-color3 = #78BDFA
-color4 = #C5B8C2
-color5 = #90C5FE
-color6 = #B0CBFC
-color7 = #dedff2
-color8 = #9b9ca9
-color9 = #219FFF
-color10 = #5CB7FE
-color11 = #78BDFA
-color12 = #C5B8C2
-color13 = #90C5FE
-color14 = #B0CBFC
-color15 = #dedff2
+color0 = #06040A
+color1 = #968D76
+color2 = #B0A58F
+color3 = #C7B89C
+color4 = #DACBB1
+color5 = #E6D6BA
+color6 = #EADBC4
+color7 = #f2eadd
+color8 = #a9a39a
+color9 = #968D76
+color10 = #B0A58F
+color11 = #C7B89C
+color12 = #DACBB1
+color13 = #E6D6BA
+color14 = #EADBC4
+color15 = #f2eadd
 background = #000000
 ;background = #0c0f10
 background-alt = #ffb25a
@@ -36,6 +36,8 @@ height = 20
 radius = 0.0
 fixed-center = false
 
+enable-ipc = true
+
 background = $(colors.color0)
 foreground = ${colors.color15}
 
@@ -46,13 +48,14 @@ padding-left = 0
 padding-right = 0 
 
 
-font-0 = terminessTTF Nerd Font Mono:size=9;3
+font-0 = Fixedsys Excelsior:size=10;1
 font-1 = DejavuSansMono NF:style=Book:size=9;3
 font-2 = Noto Emoji:scale=12:antialias=true;2
+font-3 = DejavuSansMono NF:style=Book:size=16;3
 
 modules-left = i3
 modules-center = media 
-modules-right = polypomo pulseaudio battery cpu date time
+modules-right = spotify-icon music music-prev music-play-pause music-next cava pulseaudio-control polypomo battery cpu date time
 
 tray-position = right
 tray-padding = 2
@@ -60,7 +63,7 @@ tray-background = ${colors.color9}
 tray-foreground = $(colors.color0)
 
 ;wm-restack = bspwm
-wm-restack = i3
+;wm-restack = i3
 
 ;override-redirect = true
 
@@ -119,6 +122,17 @@ ws-icon-7 = 8;
 ws-icon-8 = 9;  
 ws-icon-9 = 10;  
 
+[module/cava]
+type = custom/script
+tail = true
+exec = $HOME/.config/polybar/scripts/cava.sh
+format = <label>
+format-font = 8
+format-padding = 2
+label = %output%
+
+label-foreground = $(colors.color7)
+
 [module/media]
 type = custom/script
 # exec = ~/.config/polybar/scripts/music
@@ -164,6 +178,20 @@ label-volume =  "%percentage% "
 label-muted = 🔇 muted
 label-muted-foreground = #666
 ramp-volume-0 = "  "
+
+[module/pulseaudio-control]
+type = custom/script
+tail = true
+
+label-padding = 2
+label-foreground = ${colors.color7}
+
+exec = pulseaudio-control --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:  Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo:  Headphones" listen
+
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
 
 [module/battery]
 type = internal/battery
@@ -216,7 +244,7 @@ label =  "%percentage% "
 [module/date]
 type=internal/date
 date = " %d-%m-%Y "
-label = %date%
+label = "  %date% "
 label-background =${colors.color13}
 label-foreground = ${colors.color0}
 
@@ -256,3 +284,43 @@ pseudo-transparency = true
 [global/wm]
 margin-top = 1
 margin-bottom = 1
+
+[module/youtube-icon]
+type = custom/text
+tail = true
+content = "%{T4}  "
+format = <label>
+
+[module/spotify-icon]
+type = custom/text
+tail = true
+content = "%{T4} 阮 "
+format = <label>
+
+[module/music]
+type = custom/script
+tail = true
+; prefix symbol is shown before the text
+label = %output%
+format = <label>
+exec = ~/.config/polybar/scripts/scroll_music_status.sh
+
+[module/music-prev]
+type = custom/script
+exec = echo "%{T4}  "
+format = <label>
+click-left = playerctl previous -p $(playerctl -l)
+
+[module/music-play-pause]
+type = custom/ipc
+active-player = playerctl -l
+hook-0 = echo "%{T4}"
+hook-1 = echo "%{T4}"
+initial = 1
+click-left = playerctl play-pause -p $(playerctl -l)
+
+[module/music-next]
+type = custom/script
+exec = echo "%{T4}  "
+format = <label>
+click-left = playerctl next -p $(playerctl -l)
