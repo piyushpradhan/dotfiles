@@ -1,6 +1,6 @@
 local actions = require('telescope.actions')
 local keymapper = vim.keymap.set
-local key_mapping = function(mode, key, op, opts)
+local key_mapping = function(mode, key, op)
     keymapper(mode, key, op, { noremap = true, silent = true })
 end
 
