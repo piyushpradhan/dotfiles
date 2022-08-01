@@ -2,6 +2,7 @@ local M = {}
 
 local function set_background(content)
 	vim.cmd(":silent! !feh --bg-scale " ..content)
+    vim.cmd(":silent! !wal -i " ..content)
 end
 
 local function select_background(prompt_bufnr, map)

@@ -1,4 +1,7 @@
+-- Just the regular block cursor
 vim.opt.guicursor = ""
+-- Stupid fancy cursor
+-- vim.opt.guicursor = "n-v-c-sm:ver10-Cursor,i-ci-ve:hor25-Cursor,r-cr-o:hor20"
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -23,7 +26,9 @@ vim.opt.undofile = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
+-- Switch to true if "wal" colorscheme is not selected
 vim.opt.termguicolors = true
+-- vim.opt.termguicolors = false
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -39,6 +44,6 @@ vim.opt.updatetime = 50
 -- Don't pass messages to |ins-completion-menu|.
 vim.opt.shortmess:append("c")
 
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "

@@ -1,6 +1,6 @@
 local keymapper = vim.keymap.set
 local key_mapping = function(mode, key, op)
-        keymapper(mode, key, op, {noremap = true})
+    keymapper(mode, key, op, { noremap = true })
 end
 
 vim.g.mapleader = " "
@@ -34,14 +34,14 @@ key_mapping('n', 's<up>', '<C-w>+')
 key_mapping('n', 's<down>', '<C-w>-')
 key_mapping('n', 's<right>', '<C-w>>')
 
--- Shifting lines 
+-- Shifting lines
 key_mapping('v', 'J', ':m \'>+1<CR>gv=gv')
 key_mapping('v', 'K', ':m \'>-2<CR>gv=gv')
 
 -- Save current buffer
 key_mapping('n', '<leader>s', ':w<CR>')
 
--- Move Window 
+-- Move Window
 key_mapping('n', '<S-s>j', '<C-w>J')
 key_mapping('n', '<S-s>k', '<C-w>K')
 key_mapping('n', '<S-s>l', '<C-w>L')
@@ -63,3 +63,12 @@ key_mapping('i', '{', '{}<Esc>i')
 key_mapping('i', '{<CR>', '{<CR>}<Esc><S-o>')
 key_mapping('i', '\'', '\'\'<Esc>i')
 key_mapping('i', '\"', '\"\"<Esc>i')
+
+-- C++ compilation shortcut
+key_mapping('n', '<leader>cpp', ':!g++ %;./a.out<CR>')
+
+-- Java compilation shortcut
+key_mapping('n', '<leader>ja', ':!java %<CR>')
+
+-- Python run script shortcut
+key_mapping('n', '<leader>py', ':!python3 %<CR>')
