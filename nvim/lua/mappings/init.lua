@@ -1,6 +1,6 @@
 local keymapper = vim.keymap.set
 local key_mapping = function(mode, key, op)
-    keymapper(mode, key, op, { noremap = true })
+	keymapper(mode, key, op, { noremap = true })
 end
 
 vim.g.mapleader = " "
@@ -57,12 +57,12 @@ key_mapping('n', '<leader>u', ':Undotreeshow<CR>')
 key_mapping('n', '<Space><CR>', ':luafile ~/.config/nvim/init.lua<CR>')
 
 -- Map auto complete of parentheses and stuff
-key_mapping('i', '(', '()<Esc>i')
-key_mapping('i', '[', '[]<Esc>i')
-key_mapping('i', '{', '{}<Esc>i')
-key_mapping('i', '{<CR>', '{<CR>}<Esc><S-o>')
-key_mapping('i', '\'', '\'\'<Esc>i')
-key_mapping('i', '\"', '\"\"<Esc>i')
+-- key_mapping('i', '(', '()<Esc>i')
+-- key_mapping('i', '[', '[]<Esc>i')
+-- key_mapping('i', '{', '{}<Esc>i')
+-- key_mapping('i', '{<CR>', '{<CR>}<Esc><S-o>')
+-- key_mapping('i', '\'', '\'\'<Esc>i')
+-- key_mapping('i', '\"', '\"\"<Esc>i')
 
 -- C++ compilation shortcut
 key_mapping('n', '<leader>cpp', ':!g++ %;./a.out<CR>')

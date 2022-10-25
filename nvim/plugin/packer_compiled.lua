@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/chun-yang/auto-pairs"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -154,11 +159,6 @@ _G.packer_plugins = {
     path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["oxocarbon.nvim"] = {
-    loaded = true,
-    path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
-    url = "https://github.com/shaunsingh/oxocarbon.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -198,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "/home/mediocre/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,

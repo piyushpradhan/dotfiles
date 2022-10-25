@@ -1,26 +1,32 @@
 local actions = require('telescope.actions')
 local keymapper = vim.keymap.set
 local key_mapping = function(mode, key, op, opts)
-    keymapper(mode, key, op, { noremap = true, silent = true })
+	keymapper(mode, key, op, { noremap = true, silent = true })
 end
 
-require('telescope').setup{
-  defaults = {
-    extensions = {
-        ["ui-select"] = {
-            require('telescope.themes').get_dropdown {
+require('telescope').setup {
+	defaults = {
+		file_ignore_patterns = {
+			"node_modules",
+		},
+		extensions = {
+			["ui-select"] = {
+				require('telescope.themes').get_dropdown {
 
-            }
-        }
-    },
-    -- Default configuration for telescope goes here:
-    -- config_key = value,
-    mappings = {
-      i = {
-        ["<C-c>"] = actions.close
-      }
-    }
-  },
+				}
+			}
+		},
+		-- Default configuration for telescope goes here:
+		-- config_key = value,
+		mappings = {
+			i = {
+				["<C-c>"] = actions.close
+			},
+			n = {
+				["<C-c>"] = actions.close
+			}
+		}
+	},
 }
 
 require('telescope').load_extension('ui-select')
