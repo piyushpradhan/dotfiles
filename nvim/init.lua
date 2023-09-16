@@ -17,3 +17,5 @@ end
 if is_wsl == 1 then
   require('craftzdog.wsl')
 end
+
+vim.cmd [[:colorscheme melange]]

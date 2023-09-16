@@ -12,6 +12,8 @@ local function my_on_attach(bufnr)
   api.config.mappings.default_on_attach(bufnr)
 end
 
+vim.keymap.set('n', '<C-n>', ":NvimTreeFindFileToggle<CR>")
+
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
   view = {
