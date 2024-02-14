@@ -18,4 +18,10 @@ if is_wsl == 1 then
   require('craftzdog.wsl')
 end
 
-vim.cmd [[:colorscheme melange]]
+vim.opt.background = "dark"
+vim.cmd.colorscheme "ayu"
+-- Make colorscheme transparent
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalSB", { bg = "none" })

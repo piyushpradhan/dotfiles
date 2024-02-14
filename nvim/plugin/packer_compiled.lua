@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/piyush/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/piyush/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/piyush/.cache/nvim/packer_hererocks/2.1.1699180677/share/lua/5.1/?.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.1699180677/share/lua/5.1/?/init.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.1699180677/lib/luarocks/rocks-5.1/?.lua;/Users/piyush/.cache/nvim/packer_hererocks/2.1.1699180677/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/piyush/.cache/nvim/packer_hererocks/2.1.1699180677/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -94,6 +94,16 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
+  ["git-worktree.nvim"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
+    url = "https://github.com/ThePrimeagen/git-worktree.nvim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/git.nvim",
@@ -103,6 +113,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["goto-preview"] = {
+    config = { "\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17goto-preview\frequire\0" },
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/goto-preview",
+    url = "https://github.com/rmagatti/goto-preview"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -139,6 +155,16 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
   },
+  ["monokai-nightasty.nvim"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/monokai-nightasty.nvim",
+    url = "https://github.com/polirritmico/monokai-nightasty.nvim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -164,6 +190,11 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-navic"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-navic",
+    url = "https://github.com/SmiteshP/nvim-navic"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -184,10 +215,20 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
+  ["nvim-ufo"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-ufo",
+    url = "https://github.com/kevinhwang91/nvim-ufo"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -204,10 +245,20 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
+  ["promise-async"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/promise-async",
+    url = "https://github.com/kevinhwang91/promise-async"
+  },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
     url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+  },
+  ["telescope-undo.nvim"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/telescope-undo.nvim",
+    url = "https://github.com/debugloop/telescope-undo.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -224,6 +275,11 @@ _G.packer_plugins = {
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/vim-indent-guides",
     url = "https://github.com/nathanaelkane/vim-indent-guides"
   },
+  ["vim-jsdoc"] = {
+    loaded = true,
+    path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/vim-jsdoc",
+    url = "https://github.com/heavenshell/vim-jsdoc"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/Users/piyush/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
@@ -232,6 +288,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: goto-preview
+time([[Config for goto-preview]], true)
+try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17goto-preview\frequire\0", "config", "goto-preview")
+time([[Config for goto-preview]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

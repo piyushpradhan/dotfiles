@@ -30,6 +30,7 @@ packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons' -- File icons
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
+  use "debugloop/telescope-undo.nvim"
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use { 'numToStr/Comment.nvim',
@@ -58,9 +59,34 @@ packer.startup(function(use)
   }
 
   -- Prettier
-  use('neovim/nvim-lspconfig')
   use('MunifTanjim/prettier.nvim')
 
   -- Indenting
   use('nathanaelkane/vim-indent-guides')
+
+  -- colorscheme
+  use { 'nyoom-engineering/oxocarbon.nvim' }
+  use { "polirritmico/monokai-nightasty.nvim" }
+  use { 'Shatur/neovim-ayu' }
+
+  use {
+    "SmiteshP/nvim-navic",
+    requires = "neovim/nvim-lspconfig"
+  }
+
+  -- git stuff
+  use "sindrets/diffview.nvim"
+  use "ThePrimeagen/git-worktree.nvim"
+
+  -- docs
+  use 'heavenshell/vim-jsdoc'
+  use {
+    'rmagatti/goto-preview',
+    config = function()
+      require('goto-preview').setup {}
+    end
+  }
+
+  -- folding
+  use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
 end)

@@ -24,6 +24,11 @@ vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>Y", "\"+Y")
 
+vim.keymap.set("n", "<Tab>", ":tabn<CR>")
+vim.keymap.set("n", "<S-Tab>", ":tabp<CR>")
+
+vim.keymap.set("n", "<C-i>", "<C-i>")
+
 -- vim.keymap.set("i", "{<CR>", "{<CR>}<Esc>ko<Tab>")
 -- vim.keymap.set("i", "{", "{}<Esc>ha")
 --
