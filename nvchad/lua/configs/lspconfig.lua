@@ -24,6 +24,7 @@ local on_attach = function(client, bufnr)
   -- if client.server_capabilities.documentSymbolProvider then
   --   navic.attach(client, bufnr)
   -- end
+  enable_format_on_save(client, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 
   --Enable completion triggered by <c-x><c-o>
@@ -38,11 +39,12 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
   buf_set_keymap('n', '<leader>gf', '<cmd>lua vim.lsp.buf.format()<CR>', opts)
-  buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+  buf_set_keymap('n', 'gr', '<cmd>Telescope lsp_references<CR>', opts)
   buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
   buf_set_keymap('n', 'gR', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
   buf_set_keymap('n', '<leader>gj', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
   buf_set_keymap('n', '<leader>gk', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
+  buf_set_keymap('n', '<leader>gd', '<cmd>Telescope lsp_document_symbols<CR>', opts)
 end
 
 protocol.CompletionItemKind = {
@@ -124,10 +126,7 @@ nvim_lsp.tsserver.setup {
 
 nvim_lsp.lua_ls.setup {
   capabilities = capabilities,
-  on_attach = function(client, bufnr)
-    on_attach(client, bufnr)
-    enable_format_on_save(client, bufnr)
-  end,
+  on_attach = on_attach,
   settings = {
     Lua = {
       diagnostics = {

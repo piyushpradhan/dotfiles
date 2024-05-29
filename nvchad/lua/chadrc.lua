@@ -5,8 +5,11 @@
 local M = {}
 
 M.ui = {
-  theme = "solarized_osaka",
+  theme = "github_dark",
 
+  tabufline = {
+    order = { "treeOffset", "tabs" }
+  }
   -- hl_override = {
   -- 	Comment = { italic = true },
   -- 	["@comment"] = { italic = true },
