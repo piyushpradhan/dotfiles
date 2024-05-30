@@ -39,6 +39,7 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
   buf_set_keymap('n', '<leader>gf', '<cmd>lua vim.lsp.buf.format()<CR>', opts)
+  buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
   buf_set_keymap('n', 'gr', '<cmd>Telescope lsp_references<CR>', opts)
   buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
   buf_set_keymap('n', 'gR', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
@@ -89,6 +90,12 @@ nvim_lsp.flow.setup {
 
 nvim_lsp.eslint.setup {
   on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.json_lsp.setup {
+  on_attach = on_attach,
+  filetypes = { "json" },
   capabilities = capabilities
 }
 
