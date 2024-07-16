@@ -9,7 +9,7 @@ end
 local M = {}
 
 M.ui = {
-  theme = "gruvbox_light",
+  theme = "ayu_dark",
 
   tabufline = {
     order = { "treeOffset", "tabs" }

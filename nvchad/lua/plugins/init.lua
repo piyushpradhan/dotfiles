@@ -28,6 +28,14 @@ return {
     end,
   },
   {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
+  {
+    "ThePrimeagen/harpoon",
+    dependencies = { "nvim-lua/plenary.nvim" }
+  },
+  {
     'nvimdev/dashboard-nvim',
     event = 'VimEnter',
     config = function()
@@ -36,7 +44,32 @@ return {
       }
     end,
     dependencies = { { 'nvim-tree/nvim-web-devicons' } }
+  },
+  {
+    "sindrets/diffview.nvim",
+    event = "VimEnter"
+  },
+  {
+    "kevinhwang91/nvim-ufo",
+    dependencies = { "kevinhwang91/promise-async" },
+    event = "VimEnter",
+    config = function()
+      require "configs.nvim-ufo"
+    end
+  },
+  {
+    "jose-elias-alvarez/null-ls.nvim",
+    config = function()
+      require "configs.null-ls"
+    end
+  },
+  {
+    "MunifTanjim/prettier.nvim",
+    config = function()
+      require "configs.prettier"
+    end
   }
+
   --
   -- {
   -- 	"williamboman/mason.nvim",

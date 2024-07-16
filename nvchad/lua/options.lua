@@ -47,3 +47,6 @@ vim.opt.foldcolumn = '1'
 vim.opt.foldlevel = 99
 vim.opt.foldlevelstart = 99
 vim.opt.foldenable = true
+
+-- Snippet file
+vim.g.vscode_snippets_path = "Users/piyush/Library/Application Support/Code/User/snippets/flow-snippets.code-snippets"

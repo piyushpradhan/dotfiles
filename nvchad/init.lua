@@ -37,4 +37,7 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings.base"
   require "mappings.telescope"
+  require "mappings.diffview"
+  require "mappings.nvim-ufo"
+  require "mappings.harpoon"
 end)
