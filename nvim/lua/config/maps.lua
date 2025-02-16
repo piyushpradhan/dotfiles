@@ -1,6 +1,11 @@
+local map = vim.keymap.set
+
+-- map("n", ";", ":", { desc = "CMD enter command mode" })
+map("i", "jk", "<ESC>")
+
+-- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 vim.g.mapleader = " "
 -- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("n", "<leader>s", vim.cmd.w)
 
 vim.keymap.set("n", "sh", "<C-w>h")
