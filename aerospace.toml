@@ -1,0 +1,82 @@
+[mode.main]
+# Basic window management
+"cmd+return" = "exec kitty"                          # Launch terminal
+"cmd+shift+c" = "close"                             # Close focused window
+"cmd+shift+return" = "exec open -a 'Spotlight'"     # Launcher (similar to dmenu)
+
+# Window focus
+"cmd+h" = "focus left"
+"cmd+j" = "focus down"
+"cmd+k" = "focus up"
+"cmd+l" = "focus right"
+
+# Window movement
+"cmd+shift+h" = "move left"
+"cmd+shift+j" = "move down"
+"cmd+shift+k" = "move up"
+"cmd+shift+l" = "move right"
+
+# Layout management
+"cmd+shift+v" = "split horizontal"
+"cmd+v" = "split vertical"
+"cmd+f" = "fullscreen"
+"cmd+s" = "layout stack"
+"cmd+w" = "layout tabbed"
+"cmd+e" = "layout tiles"
+
+# Floating management
+"cmd+space" = "toggle_float"
+"cmd+shift+space" = "toggle_float_focus"
+
+# Parent/Child focus
+"cmd+a" = "focus_parent"
+
+# Workspace management
+"cmd+1" = "workspace 1"
+"cmd+2" = "workspace 2"
+"cmd+3" = "workspace 3"
+"cmd+4" = "workspace 4"
+"cmd+5" = "workspace 5"
+"cmd+6" = "workspace 6"
+"cmd+7" = "workspace 7"
+"cmd+8" = "workspace 8"
+"cmd+9" = "workspace 9"
+"cmd+0" = "workspace 10"
+
+# Move container to workspace
+"cmd+shift+1" = "move_to_workspace 1"
+"cmd+shift+2" = "move_to_workspace 2"
+"cmd+shift+3" = "move_to_workspace 3"
+"cmd+shift+4" = "move_to_workspace 4"
+"cmd+shift+5" = "move_to_workspace 5"
+"cmd+shift+6" = "move_to_workspace 6"
+"cmd+shift+7" = "move_to_workspace 7"
+"cmd+shift+8" = "move_to_workspace 8"
+"cmd+shift+9" = "move_to_workspace 9"
+"cmd+shift+0" = "move_to_workspace 10"
+
+# Workspace navigation
+"alt+tab" = "workspace_next"
+"alt+shift+tab" = "workspace_prev"
+
+# Resize mode
+"cmd+r" = "mode resize"
+
+[mode.resize]
+"h" = "resize width -10"
+"j" = "resize height +10"
+"k" = "resize height -10"
+"l" = "resize width +10"
+"return" = "mode main"
+"escape" = "mode main"
+
+[window_rules]
+"kitty" = { border = true }
+"qemu-system-x86_64" = { float = true }
+
+[general]
+# General settings
+focus_follows_mouse = false
+gaps_inner = 0
+default_border = false
+default_float_border = true 
