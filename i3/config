@@ -42,6 +42,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # bindsym XF86MonBrightnessUp exec xrandr --output eDP-1 --brightness 0
 # bindsym XF86MonBrightnessDown exec light -U 1
 
+# Configure external monitor if connected (with error handling)
+exec --no-startup-id sh -c 'xrandr | grep "HDMI-1-0 connected" && xrandr --output HDMI-1-0 --mode 2560x1440 --left-of eDP-1 || echo "HDMI monitor not connected"'
+
 # removing titlebar
 default_border pixel 0
 default_floating_border pixel 1
@@ -73,80 +76,80 @@ set $down j
 set $left h
 set $right l
 
-# use Mouse+Mod4 to drag floating windows to their wanted position
-floating_modifier Mod4
+# use Mouse+Mod1 to drag floating windows to their wanted position
+floating_modifier Mod1
 
 # start a terminal
-bindsym Mod4+Return exec kitty
-# bindsym Mod4+Return exec gnome-terminal
+bindsym Mod1+Return exec kitty
+# bindsym Mod1+Return exec gnome-terminal
 
 # kill focused window
-bindsym Mod4+Shift+c kill
+bindsym Mod1+Shift+c kill
 
 # start dmenu (a program launcher)
-bindsym Mod4+Shift+Return exec --no-startup-id dmenu_run
+bindsym Mod1+Shift+Return exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-# bindsym Mod4+Shift+Return exec "rofi -modi drun,run -show drun -theme android_notification"
+# bindsym Mod1+Shift+Return exec "rofi -modi drun,run -show drun -theme android_notification"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindsym Mod4+d exec --no-startup-id i3-dmenu-desktop
+# bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym Mod4+$left focus left
-bindsym Mod4+$down focus down
-bindsym Mod4+$up focus up
-bindsym Mod4+$right focus right
+bindsym Mod1+$left focus left
+bindsym Mod1+$down focus down
+bindsym Mod1+$up focus up
+bindsym Mod1+$right focus right
 
 # alternatively, you can use the cursor keys:
-bindsym Mod4+Left focus left
-bindsym Mod4+Down focus down
-bindsym Mod4+Up focus up
-bindsym Mod4+Right focus right
+bindsym Mod1+Left focus left
+bindsym Mod1+Down focus down
+bindsym Mod1+Up focus up
+bindsym Mod1+Right focus right
 
 # move focused window
-bindsym Mod4+Shift+$left move left
-bindsym Mod4+Shift+$down move down
-bindsym Mod4+Shift+$up move up
-bindsym Mod4+Shift+$right move right
+bindsym Mod1+Shift+$left move left
+bindsym Mod1+Shift+$down move down
+bindsym Mod1+Shift+$up move up
+bindsym Mod1+Shift+$right move right
 
 # alternatively, you can use the cursor keys:
-bindsym Mod4+Shift+Left move left
-bindsym Mod4+Shift+Down move down
-bindsym Mod4+Shift+Up move up
-bindsym Mod4+Shift+Right move right
+bindsym Mod1+Shift+Left move left
+bindsym Mod1+Shift+Down move down
+bindsym Mod1+Shift+Up move up
+bindsym Mod1+Shift+Right move right
 
 # split in horizontal orientation
-bindsym Mod4+Shift+v split h
+bindsym Mod1+Shift+v split h
 
 # split in vertical orientation
-bindsym Mod4+v split v
+bindsym Mod1+v split v
 
 # enter fullscreen mode for the focused container
-bindsym Mod4+f fullscreen toggle
+bindsym Mod1+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym Mod4+s layout stacking
-bindsym Mod4+w layout tabbed
-bindsym Mod4+e layout toggle split
+bindsym Mod1+s layout stacking
+bindsym Mod1+w layout tabbed
+bindsym Mod1+e layout toggle split
 
 # toggle tiling / floating
-bindsym Mod4+space floating toggle
+bindsym Mod1+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym Mod4+Shift+space focus mode_toggle
+bindsym Mod1+Shift+space focus mode_toggle
 
 # focus the parent container
-bindsym Mod4+a focus parent
+bindsym Mod1+a focus parent
 
 # focus the child container
-#bindsym Mod4+d focus child
+#bindsym Mod1+d focus child
 
 # move the currently focused window to the scratchpad
-bindsym Mod4+n move scratchpad
+bindsym Mod1+n move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym Mod4+Ctrl+n scratchpad show
+bindsym Mod1+Ctrl+n scratchpad show
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -161,53 +164,68 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+# Assign workspaces to specific monitors
+# Workspaces 1-5 on HDMI monitor (external)
+workspace $ws1 output HDMI-1-0
+workspace $ws2 output HDMI-1-0
+workspace $ws3 output HDMI-1-0
+workspace $ws4 output HDMI-1-0
+workspace $ws5 output HDMI-1-0
+
+# Workspaces 6-10 on laptop screen (internal)
+workspace $ws6 output eDP-1
+workspace $ws7 output eDP-1
+workspace $ws8 output eDP-1
+workspace $ws9 output eDP-1
+workspace $ws10 output eDP-1
+
 # switch to workspace
-bindsym Mod4+1 workspace number $ws1
-bindsym Mod4+2 workspace number $ws2
-bindsym Mod4+3 workspace number $ws3
-bindsym Mod4+4 workspace number $ws4
-bindsym Mod4+5 workspace number $ws5
-bindsym Mod4+6 workspace number $ws6
-bindsym Mod4+7 workspace number $ws7
-bindsym Mod4+8 workspace number $ws8
-bindsym Mod4+9 workspace number $ws9
-bindsym Mod4+0 workspace number $ws10
+bindsym Mod1+1 workspace number $ws1
+bindsym Mod1+2 workspace number $ws2
+bindsym Mod1+3 workspace number $ws3
+bindsym Mod1+4 workspace number $ws4
+bindsym Mod1+5 workspace number $ws5
+bindsym Mod1+6 workspace number $ws6
+bindsym Mod1+7 workspace number $ws7
+bindsym Mod1+8 workspace number $ws8
+bindsym Mod1+9 workspace number $ws9
+bindsym Mod1+0 workspace number $ws10
 
 # Switch workspaces 
 bindsym Mod1+Tab workspace next
 bindsym Mod1+Shift+Tab workspace prev
 
 # move focused container to workspace
-bindsym Mod4+Shift+1 move container to workspace number $ws1
-bindsym Mod4+Shift+2 move container to workspace number $ws2
-bindsym Mod4+Shift+3 move container to workspace number $ws3
-bindsym Mod4+Shift+4 move container to workspace number $ws4
-bindsym Mod4+Shift+5 move container to workspace number $ws5
-bindsym Mod4+Shift+6 move container to workspace number $ws6
-bindsym Mod4+Shift+7 move container to workspace number $ws7
-bindsym Mod4+Shift+8 move container to workspace number $ws8
-bindsym Mod4+Shift+9 move container to workspace number $ws9
-bindsym Mod4+Shift+0 move container to workspace number $ws10
+bindsym Mod1+Shift+1 move container to workspace number $ws1
+bindsym Mod1+Shift+2 move container to workspace number $ws2
+bindsym Mod1+Shift+3 move container to workspace number $ws3
+bindsym Mod1+Shift+4 move container to workspace number $ws4
+bindsym Mod1+Shift+5 move container to workspace number $ws5
+bindsym Mod1+Shift+6 move container to workspace number $ws6
+bindsym Mod1+Shift+7 move container to workspace number $ws7
+bindsym Mod1+Shift+8 move container to workspace number $ws8
+bindsym Mod1+Shift+9 move container to workspace number $ws9
+bindsym Mod1+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-# bindsym Mod4+Shift+r reload
+# bindsym Mod1+Shift+r reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym Mod4+Shift+r restart
+bindsym Mod1+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # lock screen
-# bindsym Control+Mod4+l exec "i3lock -c 000000"
+# bindsym Control+Mod1+l exec "i3lock -c 000000"
 # exec "xautolock -detectsleep -time 10 -locker \"i3lock -c 000000\""
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
+        # Pressing left will shrink the window's width.
+        # Pressing right will grow the window's width.
+        # Pressing up will shrink the window's height.
+        # Pressing down will grow the window's height.
         bindsym $left       resize shrink width 10 px or 10 ppt
         bindsym $down       resize grow height 10 px or 10 ppt
         bindsym $up         resize shrink height 10 px or 10 ppt
@@ -219,40 +237,50 @@ mode "resize" {
         bindsym Up          resize shrink height 10 px or 10 ppt
         bindsym Right       resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or Mod4+r
+        # back to normal: Enter or Escape or Mod1+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
-        bindsym Mod4+r mode "default"
+        bindsym Mod1+r mode "default"
 }
 
-bindsym Mod4+r mode "resize"
+bindsym Mod1+r mode "resize"
+
+# Gap controls (i3-gaps style)
+# bindsym Mod1+Shift+equal gaps inner current plus 5
+# bindsym Mod1+Shift+minus gaps inner current minus 5
+# bindsym Mod1+Shift+9 gaps inner current set 10
+# bindsym Mod1+Shift+period gaps outer current plus 5
+# bindsym Mod1+Shift+comma gaps outer current minus 5
+# bindsym Mod1+Shift+o gaps outer current set 0
+# bindsym Mod1+Shift+g gaps inner current set 0
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status -c ~/.config/i3/i3status.conf
-	position bottom
-        colors {
-          background $bd
-          statusline $fg
-          separator $fg
-
-          focused_workspace  #00000000 $fg $bd
-                active_workspace   #00000000 $bd $fg
-                inactive_workspace #00000000 $bd #888888
-                urgent_workspace   #00000000 $bd #900000
-                binding_mode       #00000000 $bd #900000
-        }
-}
+# bar {
+#         status_command i3status -c ~/.config/i3/i3status.conf
+# 	position bottom
+#         colors {
+#           background $bd
+#           statusline $fg
+#           separator $fg
+#
+#           focused_workspace  #00000000 $fg $bd
+#                 active_workspace   #00000000 $bd $fg
+#                 inactive_workspace #00000000 $bd #888888
+#                 urgent_workspace   #00000000 $bd #900000
+#                 binding_mode       #00000000 $bd #900000
+#         }
+# }
 
 # Toggling i3bar 
-bindsym Mod4+b exec --no-startup-id /home/mediocre/.config/i3/scripts/i3bartoggle
+bindsym Mod1+b exec --no-startup-id /home/mediocre/.config/i3/scripts/i3bartoggle
 
 # Adding polybar
-# exec_always --no-startup-id $HOME/.config/polybar/launch-polybar.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # adding gaps 
-# gaps inner 10
+gaps inner 10
+gaps outer 5
 
 # sloppy focus
 focus_follows_mouse no
@@ -267,34 +295,37 @@ focus_follows_mouse no
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+# exec i3-config-wizard
 
 # restoring wallpaper
-exec nitrogen --restore
+# exec nitrogen --restore
+exec --no-startup-id feh --bg-fill $HOME/Downloads/wallpapers/blue-mountain.jpg
 
 # Initializing picom
-exec picom --experimental-backends --config ~/.config/picom/picom.conf
+exec --no-startup-id picom --config ~/.config/picom/picom.conf &
 
 # web search script
-# bindsym Mod4+Shift+f exec ~/projects/rofi-scripts/web-search.sh
+# bindsym Mod1+Shift+f exec ~/projects/rofi-scripts/web-search.sh
 
 # ytfzf shortcut 
-bindsym Mod4+y exec ytfzf -Dt 
+bindsym Mod1+y exec ytfzf -Dt 
 
 # chrom-dragging-floating script
 exec_always --no-startup-id $HOME/.config/i3/scripts/i3-chrome-tab-dragging.py
 
-bindsym Mod4+shift+w exec --no-startup-id "/opt/rofi-network-manager/rofi-network-manager.sh"
-bindsym Mod4+shift+b exec --no-startup-id "/opt/rofi-bluetooth/rofi-bluetooth"
+bindsym Mod1+shift+w exec --no-startup-id "/opt/rofi-network-manager/rofi-network-manager.sh"
+bindsym Mod1+shift+b exec --no-startup-id "/opt/rofi-bluetooth/rofi-bluetooth"
 
-bindsym Mod4+p exec --no-startup-id "/home/mediocre/.config/i3/scripts/pomodoro"
+bindsym Mod1+p exec --no-startup-id "/home/mediocre/.config/i3/scripts/pomodoro"
 
 # for_window [class="kitty"] floating enable
 # for_window [class="kitty"] border pixel normal
-for_window [class="kitty"] border pixel normal
+# for_window [class="kitty"] border pixel normal
 # default_border pixel 1
 # default_floating_border pixel 1
 
 # for_window [class="brave-browser"] floating enable
 # for_window [class="firefox"] floating enable
 for_window [class="Qemu-system-x86_64"] floating enable
+
+exec --no-startup-id feh --bg-fill $HOME/Downloads/wallpapers/blue-mountain.jpg
