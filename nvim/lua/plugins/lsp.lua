@@ -2,7 +2,6 @@ return {
   "neovim/nvim-lspconfig",
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
-    "hrsh7th/cmp-nvim-lsp",
     { "folke/neodev.nvim", opts = {} },
   },
   config = function()
@@ -40,14 +39,22 @@ return {
       local opts = { noremap = true, silent = true }
 
       -- See `:help vim.lsp.*` for documentation on any of the below functions
-      buf_set_keymap("n", "gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>", opts)
-      buf_set_keymap("n", "gd", "<Cmd>lua vim.lsp.buf.definition()<CR>", opts)
-      buf_set_keymap("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
+      buf_set_keymap("n", "gD", "<cmd>Telescope lsp_declarations<CR>", opts)
+      buf_set_keymap("n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts)
+      buf_set_keymap("n", "gi", "<cmd>Telescope lsp_implementations<CR>", opts)
+      buf_set_keymap("n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
+      buf_set_keymap("n", "K", "<cmd>Telescope lsp_hover<CR>", opts)
       buf_set_keymap("n", "<leader>gf", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
-      buf_set_keymap("n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
-      buf_set_keymap("n", "K", "<Cmd>lua vim.lsp.buf.hover()<CR>", opts)
-      buf_set_keymap("n", "<leader>gj", "<Cmd>lua vim.diagnostic.goto_next()<CR>", opts)
-      buf_set_keymap("n", "<leader>gk", "<Cmd>lua vim.diagnostic.goto_prev()<CR>", opts)
+      buf_set_keymap("n", "<leader>ca", "<cmd>Telescope lsp_code_actions<CR>", opts)
+      buf_set_keymap("n", "<leader>cd", "<cmd>Telescope lsp_document_diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>cw", "<cmd>Telescope lsp_workspace_diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>cs", "<cmd>Telescope lsp_document_symbols<CR>", opts)
+      buf_set_keymap("n", "<leader>cS", "<cmd>Telescope lsp_workspace_symbols<CR>", opts)
+      buf_set_keymap("n", "<leader>cr", "<cmd>Telescope lsp_incoming_calls<CR>", opts)
+      buf_set_keymap("n", "<leader>co", "<cmd>Telescope lsp_outgoing_calls<CR>", opts)
+      buf_set_keymap("n", "<leader>ct", "<cmd>Telescope lsp_type_definitions<CR>", opts)
+      buf_set_keymap("n", "<leader>gj", "<cmd>Telescope diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>gk", "<cmd>Telescope diagnostics<CR>", opts)
     end
 
     protocol.CompletionItemKind = {
@@ -79,56 +86,43 @@ return {
     }
 
     -- Set up completion using nvim_cmp with LSP source
-    local capabilities = require("cmp_nvim_lsp").default_capabilities()
-    capabilities.textDocument.foldingRange = {
-      dynamicRegistration = false,
-      lineFoldingOnly = true,
-    }
 
     nvim_lsp.flow.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.eslint.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.hls.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.rust_analyzer.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.cmake.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.clangd.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.clojure_lsp.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.ts_ls.setup({
       on_attach = on_attach,
       filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
       cmd = { "typescript-language-server", "--stdio" },
-      capabilities = capabilities,
     })
 
     nvim_lsp.lua_ls.setup({
-      capabilities = capabilities,
+
       on_attach = function(client, bufnr)
         on_attach(client, bufnr)
         enable_format_on_save(client, bufnr)
@@ -151,12 +145,10 @@ return {
 
     nvim_lsp.tailwindcss.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     nvim_lsp.cssls.setup({
       on_attach = on_attach,
-      capabilities = capabilities,
     })
 
     vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {

@@ -1,7 +1,5 @@
-local map = vim.keymap.set
-
 -- map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
+vim.keymap.set("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 vim.g.mapleader = " "
@@ -23,11 +21,11 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
-vim.keymap.set("x", "<leader>p", "\"_dP")
+vim.keymap.set("x", "<leader>p", '"_dP')
 
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>Y", "\"+Y")
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>Y", '"+Y')
 
 vim.keymap.set("n", "<Tab>", ":tabn<CR>")
 vim.keymap.set("n", "<S-Tab>", ":tabp<CR>")

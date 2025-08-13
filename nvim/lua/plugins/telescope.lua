@@ -18,6 +18,11 @@ return {
 
     require("telescope").setup({
       defaults = {
+        wrap_results = true,
+        layout_strategy = "horizontal",
+        layout_config = { prompt_position = "top" },
+        sorting_strategy = "ascending",
+        winblend = 0,
         file_ignore_patterns = {
           "node_modules",
         },
@@ -123,5 +128,18 @@ return {
         layout_config = { height = 40 },
       })
     end)
+    vim.keymap.set("n", "<leader>pd", "<cmd>Telescope diagnostics<cr>")
+    vim.keymap.set("n", "<leader>pt", "<cmd>Telescope treesitter<cr>")
+    
+    -- LSP Telescope mappings
+    vim.keymap.set("n", "<leader>ld", "<cmd>Telescope lsp_definitions<cr>", { desc = "LSP Definitions" })
+    vim.keymap.set("n", "<leader>li", "<cmd>Telescope lsp_implementations<cr>", { desc = "LSP Implementations" })
+    vim.keymap.set("n", "<leader>lr", "<cmd>Telescope lsp_references<cr>", { desc = "LSP References" })
+    vim.keymap.set("n", "<leader>ls", "<cmd>Telescope lsp_document_symbols<cr>", { desc = "LSP Document Symbols" })
+    vim.keymap.set("n", "<leader>lS", "<cmd>Telescope lsp_workspace_symbols<cr>", { desc = "LSP Workspace Symbols" })
+    vim.keymap.set("n", "<leader>la", "<cmd>Telescope lsp_code_actions<cr>", { desc = "LSP Code Actions" })
+    vim.keymap.set("n", "<leader>lt", "<cmd>Telescope lsp_type_definitions<cr>", { desc = "LSP Type Definitions" })
+    vim.keymap.set("n", "<leader>lc", "<cmd>Telescope lsp_incoming_calls<cr>", { desc = "LSP Incoming Calls" })
+    vim.keymap.set("n", "<leader>lo", "<cmd>Telescope lsp_outgoing_calls<cr>", { desc = "LSP Outgoing Calls" })
   end,
 }

@@ -1,166 +1,67 @@
 return {
-  "nvim-treesitter/nvim-treesitter",
-  dependencies = {
-    "JoosepAlviste/nvim-ts-context-commentstring",
-  },
-  run = function()
-    require("nvim-treesitter.install").update({ with_sync = true })
-  end,
-  config = function()
-    local status, ts = pcall(require, "nvim-treesitter.configs")
-    if not status then
-      return
-    end
+	{ "nvim-treesitter/playground", cmd = "TSPlaygroundToggle" },
 
-    require("ts_context_commentstring").setup({})
-    vim.g.context_commentstring_module = true
+	{
+		"nvim-treesitter/nvim-treesitter",
+		opts = {
+			ensure_installed = {
+				"astro",
+				"cmake",
+				"cpp",
+				"css",
+				"fish",
+				"gitignore",
+				"go",
+				"graphql",
+				"http",
+				"java",
+				"php",
+				"rust",
+				"scss",
+				"sql",
+				"svelte",
+			},
 
-    ts.setup({
-      modules = { "highlight", "indent", "incremental_selection" },
-      sync_install = false,
-      ignore_install = { "javascript" },
-      auto_install = true,
-      highlight = {
-        enable = true,
-        disable = {},
-      },
-      indent = {
-        enable = true,
-        disable = {},
-      },
-      incremental_selection = {
-        enable = true,
-        keymaps = {
-          init_selection = "<c-space>",
-          node_incremental = "<c-space>",
-          scope_incremental = "<c-s>",
-          node_decremental = "<c-backspace>",
-        },
-      },
-      ensure_installed = {
-        "markdown",
-        "markdown_inline",
-        "javascript",
-        "jsdoc",
-        "tsx",
-        "typescript",
-        "toml",
-        "json",
-        "yaml",
-        "css",
-        "html",
-        "lua",
-      },
-      textobjects = {
-        select = {
-          enable = true,
-          lookahead = true, -- Automatically jump forward to textobj, similar to targets.vim
-          keymaps = {
-            -- You can use the capture groups defined in textobjects.scm
-            ["aa"] = "@parameter.outer",
-            ["ia"] = "@parameter.inner",
-            ["af"] = "@function.outer",
-            ["if"] = "@function.inner",
-            ["ac"] = "@class.outer",
-            ["ic"] = "@class.inner",
-          },
-        },
-        move = {
-          enable = true,
-          set_jumps = true, -- whether to set jumps in the jumplist
-          goto_next_start = {
-            ["]m"] = "@function.outer",
-            ["]]"] = "@class.outer",
-          },
-          goto_next_end = {
-            ["]M"] = "@function.outer",
-            ["]["] = "@class.outer",
-          },
-          goto_previous_start = {
-            ["[m"] = "@function.outer",
-            ["[["] = "@class.outer",
-          },
-          goto_previous_end = {
-            ["[M"] = "@function.outer",
-            ["[]"] = "@class.outer",
-          },
-        },
-        swap = {
-          enable = true,
-          swap_next = {
-            ["<leader>a"] = "@parameter.inner",
-          },
-          swap_previous = {
-            ["<leader>A"] = "@parameter.inner",
-          },
-        },
-      },
-      autotag = {
-        enable = true,
-      },
-    })
+			-- matchup = {
+			-- 	enable = true,
+			-- },
 
-    local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-    parser_config.tsx.filetype_to_parsername = { "javascript", "typescript.tsx" }
+			-- https://github.com/nvim-treesitter/playground#query-linter
+			query_linter = {
+				enable = true,
+				use_virtual_text = true,
+				lint_events = { "BufWrite", "CursorHold" },
+			},
 
-    -- require('nvim-treesitter.configs').setup {
-    --   -- Add languages to be installed here that you want installed for treesitter ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'typescript', 'help' },
-    --
-    --   highlight = { enable = true },
-    --   indent = { enable = true },
-    --   incremental_selection = {
-    --     enable = true,
-    --     keymaps = {
-    --       init_selection = '<c-space>',
-    --       node_incremental = '<c-space>',
-    --       scope_incremental = '<c-s>',
-    --       node_decremental = '<c-backspace>',
-    --     },
-    --   },
-    --   textobjects = {
-    --     select = {
-    --       enable = true,
-    --       lookahead = true, -- Automatically jump forward to textobj, similar to targets.vim
-    --       keymaps = {
-    --         -- You can use the capture groups defined in textobjects.scm
-    --         ['aa'] = '@parameter.outer',
-    --         ['ia'] = '@parameter.inner',
-    --         ['af'] = '@function.outer',
-    --         ['if'] = '@function.inner',
-    --         ['ac'] = '@class.outer',
-    --         ['ic'] = '@class.inner',
-    --       },
-    --     },
-    --     move = {
-    --       enable = true,
-    --       set_jumps = true, -- whether to set jumps in the jumplist
-    --       goto_next_start = {
-    --         [']m'] = '@function.outer',
-    --         [']]'] = '@class.outer',
-    --       },
-    --       goto_next_end = {
-    --         [']M'] = '@function.outer',
-    --         [']['] = '@class.outer',
-    --       },
-    --       goto_previous_start = {
-    --         ['[m'] = '@function.outer',
-    --         ['[['] = '@class.outer',
-    --       },
-    --       goto_previous_end = {
-    --         ['[M'] = '@function.outer',
-    --         ['[]'] = '@class.outer',
-    --       },
-    --     },
-    --     swap = {
-    --       enable = true,
-    --       swap_next = {
-    --         ['<leader>a'] = '@parameter.inner',
-    --       },
-    --       swap_previous = {
-    --         ['<leader>A'] = '@parameter.inner',
-    --       },
-    --     },
-    --   },
-    -- }
-  end,
+			playground = {
+				enable = true,
+				disable = {},
+				updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+				persist_queries = true, -- Whether the query persists across vim sessions
+				keybindings = {
+					toggle_query_editor = "o",
+					toggle_hl_groups = "i",
+					toggle_injected_languages = "t",
+					toggle_anonymous_nodes = "a",
+					toggle_language_display = "I",
+					focus_language = "f",
+					unfocus_language = "F",
+					update = "R",
+					goto_node = "<cr>",
+					show_help = "?",
+				},
+			},
+		},
+		config = function(_, opts)
+			require("nvim-treesitter.configs").setup(opts)
+
+			-- MDX
+			vim.filetype.add({
+				extension = {
+					mdx = "mdx",
+				},
+			})
+			vim.treesitter.language.register("markdown", "mdx")
+		end,
+	},
 }
