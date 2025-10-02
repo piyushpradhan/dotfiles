@@ -1,7 +1,7 @@
 return {
-  "williamboman/mason.nvim",
+  "mason-org/mason.nvim",
   dependencies = {
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason-lspconfig.nvim",
     "WhoIsSethDaniel/mason-tool-installer.nvim",
   },
   config = function()
@@ -17,10 +17,13 @@ return {
         "ts_ls",
         "pyright",
         "tailwindcss",
-        "pyright",
         "rust_analyzer",
         "lua_ls",
         "gopls",
+        "clangd",
+        "cmake",
+        "clojure_lsp",
+        "flow",
       },
     })
 
@@ -29,6 +32,8 @@ return {
         "prettier",
         "stylua", -- lua formatter
         "eslint_d",
+        "typescript-language-server",
+        "biome", -- alternative to prettier/eslint
       },
     })
   end,

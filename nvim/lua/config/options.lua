@@ -9,7 +9,7 @@ vim.opt.swapfile = false
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.backup = false
 vim.opt.showcmd = true
 vim.opt.cmdheight = 1
@@ -42,7 +42,19 @@ vim.opt.formatoptions:append({ "r" })
 
 vim.cmd([[au BufNewFile,BufRead *.astro setf astro]])
 vim.cmd([[au BufNewFile,BufRead Podfile setf ruby]])
+vim.cmd([[au BufNewFile,BufRead *.tsx setf typescriptreact]])
+vim.cmd([[au BufNewFile,BufRead *.jsx setf javascriptreact]])
+vim.cmd([[au BufNewFile,BufRead *.ts setf typescript]])
+vim.cmd([[au BufNewFile,BufRead *.js setf javascript]])
 
 if vim.fn.has("nvim-0.8") == 1 then
   vim.opt.cmdheight = 0
 end
+
+vim.opt.background = "dark"
+vim.cmd.colorscheme = "oxocarbon"
+
+-- Transparency in colorscheme -- supported by oxocarbon
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })

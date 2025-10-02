@@ -75,6 +75,15 @@ return {
             },
           },
         },
+        eonfig = function()
+          -- MDX
+          vim.filetype.add({
+            extension = {
+              mdx = "mdx",
+            },
+          })
+          vim.treesitter.language.register("markdown", "mdx")
+        end,
       },
     })
 
@@ -123,14 +132,13 @@ return {
         respect_gitignore = false,
         hidden = true,
         grouped = true,
-        previewer = false,
         initial_mode = "normal",
         layout_config = { height = 40 },
       })
     end)
     vim.keymap.set("n", "<leader>pd", "<cmd>Telescope diagnostics<cr>")
     vim.keymap.set("n", "<leader>pt", "<cmd>Telescope treesitter<cr>")
-    
+
     -- LSP Telescope mappings
     vim.keymap.set("n", "<leader>ld", "<cmd>Telescope lsp_definitions<cr>", { desc = "LSP Definitions" })
     vim.keymap.set("n", "<leader>li", "<cmd>Telescope lsp_implementations<cr>", { desc = "LSP Implementations" })

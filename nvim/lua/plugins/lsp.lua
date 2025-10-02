@@ -2,7 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
-    { "folke/neodev.nvim", opts = {} },
+    { "folke/lazydev.nvim", opts = {} },
   },
   config = function()
     local status, nvim_lsp = pcall(require, "lspconfig")
@@ -39,22 +39,22 @@ return {
       local opts = { noremap = true, silent = true }
 
       -- See `:help vim.lsp.*` for documentation on any of the below functions
-      buf_set_keymap("n", "gD", "<cmd>Telescope lsp_declarations<CR>", opts)
+      buf_set_keymap("n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
       buf_set_keymap("n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts)
-      buf_set_keymap("n", "gi", "<cmd>Telescope lsp_implementations<CR>", opts)
+      buf_set_keymap("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
       buf_set_keymap("n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
-      buf_set_keymap("n", "K", "<cmd>Telescope lsp_hover<CR>", opts)
+      buf_set_keymap("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
       buf_set_keymap("n", "<leader>gf", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
-      buf_set_keymap("n", "<leader>ca", "<cmd>Telescope lsp_code_actions<CR>", opts)
-      buf_set_keymap("n", "<leader>cd", "<cmd>Telescope lsp_document_diagnostics<CR>", opts)
-      buf_set_keymap("n", "<leader>cw", "<cmd>Telescope lsp_workspace_diagnostics<CR>", opts)
-      buf_set_keymap("n", "<leader>cs", "<cmd>Telescope lsp_document_symbols<CR>", opts)
-      buf_set_keymap("n", "<leader>cS", "<cmd>Telescope lsp_workspace_symbols<CR>", opts)
-      buf_set_keymap("n", "<leader>cr", "<cmd>Telescope lsp_incoming_calls<CR>", opts)
-      buf_set_keymap("n", "<leader>co", "<cmd>Telescope lsp_outgoing_calls<CR>", opts)
-      buf_set_keymap("n", "<leader>ct", "<cmd>Telescope lsp_type_definitions<CR>", opts)
-      buf_set_keymap("n", "<leader>gj", "<cmd>Telescope diagnostics<CR>", opts)
-      buf_set_keymap("n", "<leader>gk", "<cmd>Telescope diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
+      buf_set_keymap("n", "<leader>cd", "<cmd>Telescope diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>gw", "<cmd>Telescope lsp_workspace_diagnostics<CR>", opts)
+      buf_set_keymap("n", "<leader>gs", "<cmd>Telescope lsp_document_symbols<CR>", opts)
+      buf_set_keymap("n", "<leader>gS", "<cmd>Telescope lsp_workspace_symbols<CR>", opts)
+      buf_set_keymap("n", "<leader>gr", "<cmd>lua vim.lsp.buf.incoming_calls()<CR>", opts)
+      buf_set_keymap("n", "<leader>go", "<cmd>lua vim.lsp.buf.outgoing_calls()<CR>", opts)
+      buf_set_keymap("n", "<leader>gt", "<cmd>lua vim.lsp.buf.type_definition()<CR>", opts)
+      buf_set_keymap("n", "<leader>gj", "<cmd>lua vim.diagnostic.goto_next()<CR>", opts)
+      buf_set_keymap("n", "<leader>gk", "<cmd>lua vim.diagnostic.goto_prev()<CR>", opts)
     end
 
     protocol.CompletionItemKind = {
@@ -95,10 +95,6 @@ return {
       on_attach = on_attach,
     })
 
-    nvim_lsp.hls.setup({
-      on_attach = on_attach,
-    })
-
     nvim_lsp.rust_analyzer.setup({
       on_attach = on_attach,
     })
@@ -116,9 +112,43 @@ return {
     })
 
     nvim_lsp.ts_ls.setup({
-      on_attach = on_attach,
-      filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
+      on_attach = function(client, bufnr)
+        on_attach(client, bufnr)
+        enable_format_on_save(client, bufnr)
+      end,
+      filetypes = {
+        "typescript",
+        "typescriptreact",
+        "typescript.tsx",
+        "javascript",
+        "javascriptreact",
+        "javascript.jsx",
+      },
       cmd = { "typescript-language-server", "--stdio" },
+      settings = {
+        typescript = {
+          inlayHints = {
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayVariableTypeHints = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayEnumMemberValueHints = true,
+          },
+        },
+        javascript = {
+          inlayHints = {
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayVariableTypeHints = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayEnumMemberValueHints = true,
+          },
+        },
+      },
     })
 
     nvim_lsp.lua_ls.setup({
