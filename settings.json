@@ -1,0 +1,175 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.enableNeovim": true,
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    // Window navigation
+    {
+      "before": ["s", "h"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["s", "j"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["s", "k"],
+      "commands": ["workbench.action.navigateUp"]
+    },
+    {
+      "before": ["s", "l"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    // Split management
+    {
+      "before": ["s", "s"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["s", "v"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    // File navigation
+    {
+      "before": ["<C-n>"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    // Buffer navigation
+    {
+      "before": ["<Tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Telescope equivalent mappings
+    {
+      "before": ["<leader>", "p", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "p", "w"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["actions.find"]
+    },
+    {
+      "before": ["<leader>", "p", "d"],
+      "commands": ["workbench.actions.view.problems"]
+    },
+    // LSP mappings
+    {
+      "before": ["g", "D"],
+      "commands": ["editor.action.revealDefinitionAside"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "g", "j"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["<leader>", "g", "k"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["<leader>", "g", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    // Git mappings
+    {
+      "before": ["<leader>", "l", "g"],
+      "commands": ["lazygit.launch"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ],
+  // Additional VSCode settings to match Neovim behavior
+  "editor.lineNumbers": "relative",
+  "editor.scrolloff": 8,
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#ff0000",
+    "editorWarning.foreground": "#ff8800",
+    "editorInfo.foreground": "#00ff00",
+    "terminal.background": "#00000000"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.rulers": [72],
+  "editor.fontFamily": "'Liga SFMono Nerd Font', Menlo, 'DepartureMono Nerd Font', 'OperatorMono Nerd Font', 'Liga SFMono Nerd Font', 'Zed Mono Medium', 'JetBrainsMonoNL Nerd Font Propo', Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "fonted.font": "OperatorMono Nerd Font",
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "window.zoomLevel": -1,
+  "editor.accessibilitySupport": "off",
+  "git.autofetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "projectManager.any.baseFolders": ["/Users/piyush/projects/"],
+  "projectManager.git.baseFolders": ["/Users/Piyush/projects"],
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "workbench.iconTheme": "icons",
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "typescript.tsserver.log": "off",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "CodeSandbox",
+  "dart.mcpServerLogFile": null,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "diffEditor.renderSideBySide": true
+}
+
