@@ -1,0 +1,230 @@
+[
+  // ============================================================================
+  // BASIC VIM KEYBINDS
+  // ============================================================================
+
+  // jk to escape in insert mode
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore",
+    },
+  },
+
+  // Leader key mappings (Space is leader)
+  // Save file with <leader>s (space + s)
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space s": "workspace::Save",
+    },
+  },
+
+  // ============================================================================
+  // WINDOW NAVIGATION (sh, sj, sk, sl)
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "s h": ["workspace::ActivatePaneInDirection", "Left"],
+      "s j": ["workspace::ActivatePaneInDirection", "Down"],
+      "s k": ["workspace::ActivatePaneInDirection", "Up"],
+      "s l": ["workspace::ActivatePaneInDirection", "Right"],
+    },
+  },
+
+  // ============================================================================
+  // WINDOW SPLITTING (ss, sv)
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "s s": "pane::SplitHorizontal",
+      "s v": "pane::SplitVertical",
+    },
+  },
+
+  // ============================================================================
+  // MOVING LINES (Visual mode J/K)
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "shift-j": "editor::MoveLineDown",
+      "shift-k": "editor::MoveLineUp",
+    },
+  },
+
+  // ============================================================================
+  // SCROLLING WITH CENTERING (Ctrl+d, Ctrl+u)
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-d": "vim::ScrollDown",
+      "ctrl-u": "vim::ScrollUp",
+    },
+  },
+
+  // ============================================================================
+  // CLIPBOARD OPERATIONS
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space y": "editor::Copy",
+    },
+  },
+
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "space y": "editor::Copy",
+      "space p": "editor::Paste",
+    },
+  },
+
+  // ============================================================================
+  // TAB NAVIGATION
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "tab": "pane::ActivateNextItem",
+      "shift-tab": "pane::ActivatePrevItem",
+      "t e": "workspace::NewFile",
+    },
+  },
+
+  // ============================================================================
+  // ADDITIONAL KEYMAPS FROM keymaps.lua
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "x": "vim::DeleteRight",
+      "ctrl-a": "editor::SelectAll",
+      "ctrl-m": "pane::GoForward",
+      "ctrl-j": "editor::GoToDiagnostic",
+    },
+  },
+
+  // ============================================================================
+  // LSP KEYBINDS
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "g d": "editor::GoToDefinition",
+      "g D": "editor::GoToDeclaration",
+      "g i": "editor::GoToImplementation",
+      "g r": "editor::FindAllReferences",
+      "shift-k": "editor::Hover",
+      "space g f": "editor::Format",
+      "space c a": "editor::ToggleCodeActions",
+      "space c d": "diagnostics::Deploy",
+      "space g t": "editor::GoToTypeDefinition",
+      "space g j": "editor::GoToDiagnostic",
+      "space g k": "editor::GoToPrevDiagnostic",
+    },
+  },
+
+  // ============================================================================
+  // TELESCOPE/FUZZY FINDER KEYBINDS
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space /": "buffer_search::Deploy",
+      "space p f": "file_finder::Toggle",
+      "space p w": "project_search::ToggleFocus",
+      "\\": "tab_switcher::Toggle",
+      "space p h": "assistant::QuoteSelection",
+      "space p r": "pane::ActivateLastItem",
+      "space p d": "diagnostics::Deploy",
+      "space p v": "project_panel::ToggleFocus",
+    },
+  },
+
+  // LSP-specific Telescope-like mappings
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space l d": "editor::GoToDefinition",
+      "space l i": "editor::GoToImplementation",
+      "space l r": "editor::FindAllReferences",
+      "space l s": "outline::Toggle",
+      "space l a": "editor::ToggleCodeActions",
+      "space l t": "editor::GoToTypeDefinition",
+    },
+  },
+
+  // ============================================================================
+  // FILE EXPLORER (Neo-tree equivalent = Project Panel)
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-n": "project_panel::ToggleFocus",
+      "\\": "project_panel::ToggleFocus",
+    },
+  },
+
+  // Project Panel specific keybinds
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "space": "project_panel::ExpandSelectedEntry",
+      "return": "project_panel::Open",
+      "escape": "project_panel::ToggleFocus",
+      "shift-s": ["project_panel::Open", { "split": "horizontal" }],
+      "s": ["project_panel::Open", { "split": "vertical" }],
+      "t": ["project_panel::Open", { "target": "new_tab" }],
+      "a": "project_panel::NewFile",
+      "shift-a": "project_panel::NewDirectory",
+      "d": "project_panel::Delete",
+      "r": "project_panel::Rename",
+      "y": "project_panel::Copy",
+      "x": "project_panel::Cut",
+      "p": "project_panel::Paste",
+      "q": "project_panel::ToggleFocus",
+      "/": "project_panel::NewSearchInDirectory",
+      "backspace": "project_panel::CollapseSelectedEntry",
+    },
+  },
+
+  // ============================================================================
+  // DIAGNOSTICS NAVIGATION
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space g j": "editor::GoToDiagnostic",
+      "space g k": "editor::GoToPreviousDiagnostic",
+    },
+  },
+
+  // ============================================================================
+  // SYMBOLS AND WORKSPACE
+  // ============================================================================
+
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "space g s": "outline::Toggle",
+      "space p t": "outline::Toggle",
+    },
+  },
+]
+
