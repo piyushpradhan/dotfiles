@@ -7,10 +7,6 @@ return {
     "MunifTanjim/nui.nvim",
     "nvim-tree/nvim-web-devicons",
   },
-  keys = {
-    { "<leader>e", "<cmd>Neotree toggle<cr>", desc = "Neo-tree toggle" },
-    { "<leader>ef", "<cmd>Neotree reveal<cr>", desc = "Neo-tree reveal current file" },
-  },
   opts = {
     close_if_last_window = false,
     hijack_netrw_behavior = "open_default",

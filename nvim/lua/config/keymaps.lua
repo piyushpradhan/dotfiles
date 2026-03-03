@@ -2,10 +2,12 @@
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<cr>", { desc = "Clear search highlight" })
 
 -- map("n", ";", ":", { desc = "CMD enter command mode" })
-vim.keymap.set("i", "jk", "<ESC>")
+-- jk/jj escape via better-escape plugin
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { desc = "Neo-tree toggle" })
+vim.keymap.set("n", "<leader>ef", "<cmd>Neotree reveal<cr>", { desc = "Neo-tree reveal" })
 vim.keymap.set("n", "<leader>s", vim.cmd.w)
 
 vim.keymap.set("n", "sh", "<C-w>h")
