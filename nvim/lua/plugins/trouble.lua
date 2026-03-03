@@ -1,0 +1,33 @@
+return {
+  "folke/trouble.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  cmd = "Trouble",
+  keys = {
+    { "<leader>xx", "<cmd>Trouble diagnostics toggle<cr>", desc = "Diagnostics (Trouble)" },
+    { "<leader>xw", "<cmd>Trouble diagnostics toggle filter.buf=0<cr>", desc = "Buffer diagnostics" },
+    { "<leader>xq", "<cmd>Trouble quickfix toggle<cr>", desc = "Quickfix list" },
+    { "<leader>xl", "<cmd>Trouble loclist toggle<cr>", desc = "Location list" },
+    { "<leader>xr", "<cmd>Trouble lsp references<cr>", desc = "LSP references" },
+  },
+  opts = {
+    icons = true,
+    padding = true,
+    mode = "document_diagnostics",
+    severity = nil,
+    group = true,
+    cycle_results = true,
+    action_keys = {
+      close = { "q", "<esc>" },
+      refresh = "r",
+      jump = { "<cr>", "<tab>" },
+      open_split = { "<c-x>" },
+      open_vsplit = { "<c-v>" },
+      open_tab = { "<c-t>" },
+      jump_close = { "o" },
+      toggle_mode = "m",
+      switch = "s",
+      preview = "p",
+    },
+    use_diagnostic_signs = true,
+  },
+}

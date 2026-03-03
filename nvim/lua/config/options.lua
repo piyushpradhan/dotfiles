@@ -4,6 +4,7 @@ vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
 vim.opt.number = true
+vim.opt.signcolumn = "yes:2" -- Always show sign column (2 cols for multiple signs)
 
 vim.opt.swapfile = false
 vim.opt.title = true
@@ -50,11 +51,3 @@ vim.cmd([[au BufNewFile,BufRead *.js setf javascript]])
 if vim.fn.has("nvim-0.8") == 1 then
   vim.opt.cmdheight = 0
 end
-
-vim.opt.background = "dark"
-vim.cmd.colorscheme = "oxocarbon"
-
--- Transparency in colorscheme -- supported by oxocarbon
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
